@@ -1,0 +1,22 @@
+{
+  "name": "zordoncapital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/server/index.js",
+  "scripts": {
+    "start": "npm run start:client & npm run start:server",
+    "start:client": "webpack -w",
+    "start:server": "nodemon app/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/underscoredotspace/ZordonCapital.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
