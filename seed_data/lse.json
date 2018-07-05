@@ -1,0 +1,2562 @@
+[
+  {
+    "symbol": "III",
+    "name": "3I GRP."
+  },
+  {
+    "symbol": "3IN",
+    "name": "3I INF. ORD"
+  },
+  {
+    "symbol": "FOUR",
+    "name": "4IMPRINT GRP."
+  },
+  {
+    "symbol": "888",
+    "name": "888 HLDGS"
+  },
+  {
+    "symbol": "ABF",
+    "name": "A.B.FOOD"
+  },
+  {
+    "symbol": "AA.",
+    "name": "AA PLC"
+  },
+  {
+    "symbol": "ANII",
+    "name": "AB NEW INDIA"
+  },
+  {
+    "symbol": "AAS",
+    "name": "ABDN.ASIAN SML"
+  },
+  {
+    "symbol": "AAIF",
+    "name": "ABDN.ASN INC"
+  },
+  {
+    "symbol": "ABD",
+    "name": "ABDN.NW.DWN"
+  },
+  {
+    "symbol": "ADIG",
+    "name": "ABERDEEN DI&G"
+  },
+  {
+    "symbol": "ASLI",
+    "name": "ABERDEEN STAND."
+  },
+  {
+    "symbol": "ASIT",
+    "name": "ABERFORTH SPLI."
+  },
+  {
+    "symbol": "ASL",
+    "name": "ABERFTH.SMLL.CO"
+  },
+  {
+    "symbol": "ACA",
+    "name": "ACACIA MIN"
+  },
+  {
+    "symbol": "ADM",
+    "name": "ADMIRAL GRP"
+  },
+  {
+    "symbol": "AGK",
+    "name": "AGGREKO"
+  },
+  {
+    "symbol": "AEFS",
+    "name": "ALCENTRA GBP"
+  },
+  {
+    "symbol": "ALFA",
+    "name": "ALFA FIN"
+  },
+  {
+    "symbol": "ATST",
+    "name": "ALLIANCE TRUST"
+  },
+  {
+    "symbol": "ATT",
+    "name": "ALLIANZ TECH"
+  },
+  {
+    "symbol": "ALM",
+    "name": "ALLIED MIND"
+  },
+  {
+    "symbol": "AAL",
+    "name": "ANGLO AMERICAN"
+  },
+  {
+    "symbol": "AEP",
+    "name": "ANGLO-EASTERN"
+  },
+  {
+    "symbol": "ANTO",
+    "name": "ANTOFAGASTA"
+  },
+  {
+    "symbol": "AO.",
+    "name": "AO WORLD"
+  },
+  {
+    "symbol": "APAX",
+    "name": "APAX GLB"
+  },
+  {
+    "symbol": "ARW",
+    "name": "ARROW GLOBAL"
+  },
+  {
+    "symbol": "ATS",
+    "name": "ARTEMIS ALPHA"
+  },
+  {
+    "symbol": "ASCL",
+    "name": "ASCENTIAL"
+  },
+  {
+    "symbol": "ASHM",
+    "name": "ASHMORE"
+  },
+  {
+    "symbol": "AHT",
+    "name": "ASHTEAD GRP."
+  },
+  {
+    "symbol": "AGR",
+    "name": "ASSURA"
+  },
+  {
+    "symbol": "AZN",
+    "name": "ASTRAZENECA"
+  },
+  {
+    "symbol": "AUTO",
+    "name": "AUTO TRAD"
+  },
+  {
+    "symbol": "AVV",
+    "name": "AVEVA GRP"
+  },
+  {
+    "symbol": "AV.",
+    "name": "AVIVA"
+  },
+  {
+    "symbol": "AVON",
+    "name": "AVON RBR."
+  },
+  {
+    "symbol": "BME",
+    "name": "B&M EUROPEAN"
+  },
+  {
+    "symbol": "BAB",
+    "name": "BABCOCK INTL"
+  },
+  {
+    "symbol": "BA.",
+    "name": "BAE SYS."
+  },
+  {
+    "symbol": "BGS",
+    "name": "BAILL.G.SHIN."
+  },
+  {
+    "symbol": "BGFD",
+    "name": "BAILLIE G.JAP."
+  },
+  {
+    "symbol": "BGUK",
+    "name": "BAILLIE GIFFORD"
+  },
+  {
+    "symbol": "USA",
+    "name": "BAILLIE GIFFORD"
+  },
+  {
+    "symbol": "BAKK",
+    "name": "BAKKAVOR"
+  },
+  {
+    "symbol": "BBY",
+    "name": "BALFOUR B."
+  },
+  {
+    "symbol": "BGEO",
+    "name": "BANK OF GEORGIA"
+  },
+  {
+    "symbol": "BNKR",
+    "name": "BANKERS INV.TST"
+  },
+  {
+    "symbol": "BARC",
+    "name": "BARCLAYS"
+  },
+  {
+    "symbol": "BAG",
+    "name": "BARR (A.G.)"
+  },
+  {
+    "symbol": "BDEV",
+    "name": "BARRATT DEVEL."
+  },
+  {
+    "symbol": "BBH",
+    "name": "BB HEALTHCARE"
+  },
+  {
+    "symbol": "BBA",
+    "name": "BBA AVIATION"
+  },
+  {
+    "symbol": "BBGI",
+    "name": "BBGI SICAV"
+  },
+  {
+    "symbol": "BCA",
+    "name": "BCA MARKET"
+  },
+  {
+    "symbol": "BEZ",
+    "name": "BEAZLEY"
+  },
+  {
+    "symbol": "BWY",
+    "name": "BELLWAY"
+  },
+  {
+    "symbol": "BKG",
+    "name": "BERKELEY GP.HLD"
+  },
+  {
+    "symbol": "BHGG",
+    "name": "BH GLOBAL £"
+  },
+  {
+    "symbol": "BHMG",
+    "name": "BH MACRO GBP"
+  },
+  {
+    "symbol": "BLT",
+    "name": "BHP BILLITON"
+  },
+  {
+    "symbol": "BIFF",
+    "name": "BIFFA"
+  },
+  {
+    "symbol": "BYG",
+    "name": "BIG YELLOW GRP"
+  },
+  {
+    "symbol": "BIOG",
+    "name": "BIOTECH GWTH"
+  },
+  {
+    "symbol": "BRNA",
+    "name": "BLACKROCK BRNA"
+  },
+  {
+    "symbol": "BRFI",
+    "name": "BLACKROCK FR"
+  },
+  {
+    "symbol": "BRGE",
+    "name": "BLACKROCK GREAT"
+  },
+  {
+    "symbol": "BRLA",
+    "name": "BLACKROCK LAT A"
+  },
+  {
+    "symbol": "BRSC",
+    "name": "BLACKROCK SML"
+  },
+  {
+    "symbol": "BRWM",
+    "name": "BLACKROCK WLD"
+  },
+  {
+    "symbol": "BMY",
+    "name": "BLOOMSBURY PUB."
+  },
+  {
+    "symbol": "BSIF",
+    "name": "BLUEFIELD SOLAR"
+  },
+  {
+    "symbol": "BOY",
+    "name": "BODYCOTE"
+  },
+  {
+    "symbol": "BOOT",
+    "name": "BOOT(H)"
+  },
+  {
+    "symbol": "BVS",
+    "name": "BOVIS HOMES"
+  },
+  {
+    "symbol": "BP.",
+    "name": "BP"
+  },
+  {
+    "symbol": "BATS",
+    "name": "BR.AMER.TOB."
+  },
+  {
+    "symbol": "BTEM",
+    "name": "BR.EMPIRE TRUST"
+  },
+  {
+    "symbol": "BLND",
+    "name": "BR.LAND"
+  },
+  {
+    "symbol": "THRG",
+    "name": "BR.THROG.TRUST"
+  },
+  {
+    "symbol": "BRW",
+    "name": "BREWIN DOLPHIN"
+  },
+  {
+    "symbol": "BVIC",
+    "name": "BRITVIC"
+  },
+  {
+    "symbol": "BWNG",
+    "name": "BROWN(N.) GRP."
+  },
+  {
+    "symbol": "BUT",
+    "name": "BRUNNER INV.TST"
+  },
+  {
+    "symbol": "BT.A",
+    "name": "BT GROUP"
+  },
+  {
+    "symbol": "BTG",
+    "name": "BTG"
+  },
+  {
+    "symbol": "BNZL",
+    "name": "BUNZL"
+  },
+  {
+    "symbol": "BRBY",
+    "name": "BURBERRY GRP"
+  },
+  {
+    "symbol": "CNE",
+    "name": "CAIRN ENERGY"
+  },
+  {
+    "symbol": "CLDN",
+    "name": "CALEDONIA INV."
+  },
+  {
+    "symbol": "CMBN",
+    "name": "CAMBIAN GROUP"
+  },
+  {
+    "symbol": "CAPC",
+    "name": "CAP & COUNT"
+  },
+  {
+    "symbol": "CAL",
+    "name": "CAP.®."
+  },
+  {
+    "symbol": "CPI",
+    "name": "CAPITA GROUP"
+  },
+  {
+    "symbol": "CGT",
+    "name": "CAPITAL GEARING"
+  },
+  {
+    "symbol": "CARD",
+    "name": "CARD FACTORY"
+  },
+  {
+    "symbol": "CCL",
+    "name": "CARNIVAL"
+  },
+  {
+    "symbol": "CPR",
+    "name": "CARPETRIGHT"
+  },
+  {
+    "symbol": "CARR",
+    "name": "CARRS GROUP"
+  },
+  {
+    "symbol": "CCJI",
+    "name": "CC JAPAN"
+  },
+  {
+    "symbol": "CEY",
+    "name": "CENTAMIN"
+  },
+  {
+    "symbol": "CNA",
+    "name": "CENTRICA"
+  },
+  {
+    "symbol": "CTR",
+    "name": "CHARLES TAYLOR"
+  },
+  {
+    "symbol": "CCFS",
+    "name": "CHARTER COURT"
+  },
+  {
+    "symbol": "CHG",
+    "name": "CHEMRING GRP."
+  },
+  {
+    "symbol": "CSN",
+    "name": "CHESNARA"
+  },
+  {
+    "symbol": "CINE",
+    "name": "CINEWORLD"
+  },
+  {
+    "symbol": "CIR",
+    "name": "CIRCASSIA"
+  },
+  {
+    "symbol": "CLIG",
+    "name": "CITY LON INV"
+  },
+  {
+    "symbol": "CTY",
+    "name": "CITY LON."
+  },
+  {
+    "symbol": "CMHY",
+    "name": "CITY MERCH.HIGH"
+  },
+  {
+    "symbol": "CSH",
+    "name": "CIVITAS SOCIAL"
+  },
+  {
+    "symbol": "CKN",
+    "name": "CLARKSON"
+  },
+  {
+    "symbol": "CLG",
+    "name": "CLIPPER"
+  },
+  {
+    "symbol": "CBG",
+    "name": "CLOSE BR.GRP."
+  },
+  {
+    "symbol": "CLI",
+    "name": "CLS HDGS"
+  },
+  {
+    "symbol": "CMCX",
+    "name": "CMC MKTS"
+  },
+  {
+    "symbol": "COA",
+    "name": "COATS GROUP"
+  },
+  {
+    "symbol": "COB",
+    "name": "COBHAM"
+  },
+  {
+    "symbol": "CCH",
+    "name": "COCACOLA HBC AG"
+  },
+  {
+    "symbol": "CMS",
+    "name": "COMMUNISIS"
+  },
+  {
+    "symbol": "CPG",
+    "name": "COMPASS GROUP"
+  },
+  {
+    "symbol": "CCC",
+    "name": "COMPUTACENTER"
+  },
+  {
+    "symbol": "CNCT",
+    "name": "CONNECT GRP"
+  },
+  {
+    "symbol": "CSRT",
+    "name": "CONSORT MED."
+  },
+  {
+    "symbol": "GLO",
+    "name": "CONTOURGLBL"
+  },
+  {
+    "symbol": "CTEC",
+    "name": "CONVATEC"
+  },
+  {
+    "symbol": "COST",
+    "name": "COSTAIN GRP."
+  },
+  {
+    "symbol": "CSP",
+    "name": "COUNTRYSIDE"
+  },
+  {
+    "symbol": "CWD",
+    "name": "COUNTRYWIDE"
+  },
+  {
+    "symbol": "NCYF",
+    "name": "CQS NEW C.H.Y.F"
+  },
+  {
+    "symbol": "CWK",
+    "name": "CRANSWICK"
+  },
+  {
+    "symbol": "CRST",
+    "name": "CREST NICHOLSON"
+  },
+  {
+    "symbol": "CRH",
+    "name": "CRH"
+  },
+  {
+    "symbol": "CRDA",
+    "name": "CRODA INTL."
+  },
+  {
+    "symbol": "CREI",
+    "name": "CUSTODIAN REIT"
+  },
+  {
+    "symbol": "CCPG",
+    "name": "CVC CREDIT GBP"
+  },
+  {
+    "symbol": "CYBG",
+    "name": "CYBG"
+  },
+  {
+    "symbol": "DJAN",
+    "name": "DAEJAN HLDGS"
+  },
+  {
+    "symbol": "DCG",
+    "name": "DAIRY CREST"
+  },
+  {
+    "symbol": "DCC",
+    "name": "DCC"
+  },
+  {
+    "symbol": "DLAR",
+    "name": "DE LA RUE"
+  },
+  {
+    "symbol": "DEB",
+    "name": "DEBENHAMS"
+  },
+  {
+    "symbol": "DPH",
+    "name": "DECHRA PHARM"
+  },
+  {
+    "symbol": "DLN",
+    "name": "DERWENT LONDON"
+  },
+  {
+    "symbol": "DVO",
+    "name": "DEVRO"
+  },
+  {
+    "symbol": "DFS",
+    "name": "DFS FURN"
+  },
+  {
+    "symbol": "DGE",
+    "name": "DIAGEO"
+  },
+  {
+    "symbol": "DIA",
+    "name": "DIALIGHT"
+  },
+  {
+    "symbol": "DTY",
+    "name": "DIGNITY"
+  },
+  {
+    "symbol": "DPLM",
+    "name": "DIPLOMA"
+  },
+  {
+    "symbol": "DLG",
+    "name": "DIRECT LINE"
+  },
+  {
+    "symbol": "DSCV",
+    "name": "DISCOVERIE GRP."
+  },
+  {
+    "symbol": "DIVI",
+    "name": "DIVERSE INC"
+  },
+  {
+    "symbol": "DC.",
+    "name": "DIXONS CARPHO"
+  },
+  {
+    "symbol": "DOM",
+    "name": "DOMINO'S PIZZA"
+  },
+  {
+    "symbol": "DPEU",
+    "name": "DP EURASIA"
+  },
+  {
+    "symbol": "DRX",
+    "name": "DRAX"
+  },
+  {
+    "symbol": "DIG",
+    "name": "DUNEDIN INC."
+  },
+  {
+    "symbol": "DNDL",
+    "name": "DUNEDIN SMALL."
+  },
+  {
+    "symbol": "DNLM",
+    "name": "DUNELM"
+  },
+  {
+    "symbol": "EZJ",
+    "name": "EASYJET"
+  },
+  {
+    "symbol": "EGL",
+    "name": "ECOFIN GLOBAL"
+  },
+  {
+    "symbol": "EFM",
+    "name": "EDIN.DRGN.TST."
+  },
+  {
+    "symbol": "EDIN",
+    "name": "EDIN.INV.TST."
+  },
+  {
+    "symbol": "EWI",
+    "name": "EDIN.WWIDE INV"
+  },
+  {
+    "symbol": "EPIC",
+    "name": "EDISTON PRPRTY"
+  },
+  {
+    "symbol": "EIG",
+    "name": "EI GRP PLC"
+  },
+  {
+    "symbol": "ELTA",
+    "name": "ELECTRA PRIVATE"
+  },
+  {
+    "symbol": "ECM",
+    "name": "ELECTROCOMPS."
+  },
+  {
+    "symbol": "ELM",
+    "name": "ELEMENTIS"
+  },
+  {
+    "symbol": "ESP",
+    "name": "EMPIRIC"
+  },
+  {
+    "symbol": "ENOG",
+    "name": "ENERGEAN OIL"
+  },
+  {
+    "symbol": "ENQ",
+    "name": "ENQUEST"
+  },
+  {
+    "symbol": "ETO",
+    "name": "ENT. ONE DI"
+  },
+  {
+    "symbol": "EPG",
+    "name": "EP GLOBAL"
+  },
+  {
+    "symbol": "EQN",
+    "name": "EQUINITI"
+  },
+  {
+    "symbol": "ESNT",
+    "name": "ESSENTRA"
+  },
+  {
+    "symbol": "ESUR",
+    "name": "ESURE"
+  },
+  {
+    "symbol": "ERM",
+    "name": "EUROMONEY INST."
+  },
+  {
+    "symbol": "EVR",
+    "name": "EVRAZ"
+  },
+  {
+    "symbol": "EXPN",
+    "name": "EXPERIAN"
+  },
+  {
+    "symbol": "FCI",
+    "name": "F&C CAP&INC"
+  },
+  {
+    "symbol": "FCPT",
+    "name": "F&C COMM PRP"
+  },
+  {
+    "symbol": "FCS",
+    "name": "F&C GLOBAL"
+  },
+  {
+    "symbol": "FPEO",
+    "name": "F&C PRIV. ORD"
+  },
+  {
+    "symbol": "FCRE",
+    "name": "F&C UK REAL EST"
+  },
+  {
+    "symbol": "FDM",
+    "name": "FDM GROUP HLDG"
+  },
+  {
+    "symbol": "FERG",
+    "name": "FERGUSON"
+  },
+  {
+    "symbol": "FXPO",
+    "name": "FERREXPO"
+  },
+  {
+    "symbol": "FEV",
+    "name": "FID.EURO.VAL."
+  },
+  {
+    "symbol": "FSV",
+    "name": "FID.SP.VAL."
+  },
+  {
+    "symbol": "FAS",
+    "name": "FIDELITY ASIAN"
+  },
+  {
+    "symbol": "FCSS",
+    "name": "FIDELITY CHINA"
+  },
+  {
+    "symbol": "FJV",
+    "name": "FIDELITY JAPAN"
+  },
+  {
+    "symbol": "FDSA",
+    "name": "FIDESSA GROUP"
+  },
+  {
+    "symbol": "FDL",
+    "name": "FINDEL"
+  },
+  {
+    "symbol": "FGT",
+    "name": "FINSBURY GTH."
+  },
+  {
+    "symbol": "FGP",
+    "name": "FIRSTGROUP"
+  },
+  {
+    "symbol": "FSJ",
+    "name": "FISHER(J)& SONS"
+  },
+  {
+    "symbol": "FRCL",
+    "name": "FOR.&COL.IV.TST"
+  },
+  {
+    "symbol": "FSFL",
+    "name": "FORESIGHT SOLAR"
+  },
+  {
+    "symbol": "FORT",
+    "name": "FORTERRA"
+  },
+  {
+    "symbol": "FOXT",
+    "name": "FOXTONS"
+  },
+  {
+    "symbol": "FRES",
+    "name": "FRESNILLO"
+  },
+  {
+    "symbol": "FSTA",
+    "name": "FULLER,SMITH'A'"
+  },
+  {
+    "symbol": "FCIF",
+    "name": "FUNDING CIRC"
+  },
+  {
+    "symbol": "FEET",
+    "name": "FUNDSMITH EMERG"
+  },
+  {
+    "symbol": "GFS",
+    "name": "G4S"
+  },
+  {
+    "symbol": "GFRD",
+    "name": "GALLIFORD TRY"
+  },
+  {
+    "symbol": "GAW",
+    "name": "GAMES WORKSHOP"
+  },
+  {
+    "symbol": "GABI",
+    "name": "GCP ASSET BCKD"
+  },
+  {
+    "symbol": "GCP",
+    "name": "GCP INFRA."
+  },
+  {
+    "symbol": "DIGS",
+    "name": "GCP STUDENT LIV"
+  },
+  {
+    "symbol": "GEMD",
+    "name": "GEM DIAMONDS DI"
+  },
+  {
+    "symbol": "GSS",
+    "name": "GENESIS E.M.F."
+  },
+  {
+    "symbol": "GNS",
+    "name": "GENUS"
+  },
+  {
+    "symbol": "CGEO",
+    "name": "GEORGIA CAPITAL"
+  },
+  {
+    "symbol": "GHG",
+    "name": "GEORGIA H"
+  },
+  {
+    "symbol": "GSK",
+    "name": "GLAXOSMITHKLINE"
+  },
+  {
+    "symbol": "GLEN",
+    "name": "GLENCORE"
+  },
+  {
+    "symbol": "GOG",
+    "name": "GO-AHEAD GROUP"
+  },
+  {
+    "symbol": "GOCO",
+    "name": "GOCOMPARE.COM"
+  },
+  {
+    "symbol": "GPOR",
+    "name": "GR.PORTLAND"
+  },
+  {
+    "symbol": "GFTU",
+    "name": "GRAFTON GRP.UTS"
+  },
+  {
+    "symbol": "GRI",
+    "name": "GRAINGER"
+  },
+  {
+    "symbol": "UKW",
+    "name": "GREENCOAT UK"
+  },
+  {
+    "symbol": "GNC",
+    "name": "GREENCORE GRP."
+  },
+  {
+    "symbol": "GNK",
+    "name": "GREENE KING"
+  },
+  {
+    "symbol": "GRG",
+    "name": "GREGGS"
+  },
+  {
+    "symbol": "GMS",
+    "name": "GULF MARINE"
+  },
+  {
+    "symbol": "GVC",
+    "name": "GVC HLDGS"
+  },
+  {
+    "symbol": "GYM",
+    "name": "GYM GRP"
+  },
+  {
+    "symbol": "HFD",
+    "name": "HALFORDS"
+  },
+  {
+    "symbol": "HLMA",
+    "name": "HALMA"
+  },
+  {
+    "symbol": "HMSO",
+    "name": "HAMMERSON"
+  },
+  {
+    "symbol": "HAN",
+    "name": "HANSA TST PLC"
+  },
+  {
+    "symbol": "HSTN",
+    "name": "HANSTEEN HLDGS"
+  },
+  {
+    "symbol": "HVPE",
+    "name": "HARBOURVEST"
+  },
+  {
+    "symbol": "HL.",
+    "name": "HARGREAVES LANS"
+  },
+  {
+    "symbol": "HSTG",
+    "name": "HASTINGS GP"
+  },
+  {
+    "symbol": "HAS",
+    "name": "HAYS"
+  },
+  {
+    "symbol": "HEAD",
+    "name": "HEADLAM GROUP"
+  },
+  {
+    "symbol": "HLCL",
+    "name": "HELICAL PLC"
+  },
+  {
+    "symbol": "HEFT",
+    "name": "HEND.EUR.FOCUS"
+  },
+  {
+    "symbol": "HNE",
+    "name": "HEND.EURO."
+  },
+  {
+    "symbol": "HFEL",
+    "name": "HEND.FAR EAST"
+  },
+  {
+    "symbol": "HHI",
+    "name": "HEND.HIGH INC"
+  },
+  {
+    "symbol": "HSL",
+    "name": "HEND.SMALL COS."
+  },
+  {
+    "symbol": "HAST",
+    "name": "HENDERSON ALT"
+  },
+  {
+    "symbol": "HDIV",
+    "name": "HENDERSON DIV"
+  },
+  {
+    "symbol": "HINT",
+    "name": "HENDERSON INT."
+  },
+  {
+    "symbol": "HRI",
+    "name": "HERALD INV."
+  },
+  {
+    "symbol": "HGT",
+    "name": "HG CAPITAL"
+  },
+  {
+    "symbol": "HICL",
+    "name": "HICL INF."
+  },
+  {
+    "symbol": "HMSF",
+    "name": "HIGHBRIDGE GBP"
+  },
+  {
+    "symbol": "HIK",
+    "name": "HIKMA"
+  },
+  {
+    "symbol": "HILS",
+    "name": "HILL & SMITH"
+  },
+  {
+    "symbol": "HFG",
+    "name": "HILTON FOOD"
+  },
+  {
+    "symbol": "HSX",
+    "name": "HISCOX"
+  },
+  {
+    "symbol": "HOC",
+    "name": "HOCHSCHILD"
+  },
+  {
+    "symbol": "HRG",
+    "name": "HOGG ROB."
+  },
+  {
+    "symbol": "BOWL",
+    "name": "HOLLYWOOD BWL"
+  },
+  {
+    "symbol": "HSV",
+    "name": "HOMESERVE"
+  },
+  {
+    "symbol": "HSW",
+    "name": "HOSTELWORLD"
+  },
+  {
+    "symbol": "HWDN",
+    "name": "HOWDEN JOINERY"
+  },
+  {
+    "symbol": "HSBA",
+    "name": "HSBC HLDGS.UK"
+  },
+  {
+    "symbol": "HTG",
+    "name": "HUNTING"
+  },
+  {
+    "symbol": "HNT",
+    "name": "HUNTSWORTH"
+  },
+  {
+    "symbol": "IBST",
+    "name": "IBSTOCK"
+  },
+  {
+    "symbol": "ICGT",
+    "name": "ICG ENT TRST"
+  },
+  {
+    "symbol": "LBOW",
+    "name": "ICG-LONGBOW"
+  },
+  {
+    "symbol": "IGG",
+    "name": "IG GROUP"
+  },
+  {
+    "symbol": "IMI",
+    "name": "IMI"
+  },
+  {
+    "symbol": "IMB",
+    "name": "IMP.BRANDS"
+  },
+  {
+    "symbol": "IEM",
+    "name": "IMPAX ENV.MKT"
+  },
+  {
+    "symbol": "INCH",
+    "name": "INCHCAPE"
+  },
+  {
+    "symbol": "IIT",
+    "name": "IND.INV.TST"
+  },
+  {
+    "symbol": "INDV",
+    "name": "INDIVIOR"
+  },
+  {
+    "symbol": "INF",
+    "name": "INFORMA"
+  },
+  {
+    "symbol": "ISAT",
+    "name": "INMARSAT"
+  },
+  {
+    "symbol": "IBT",
+    "name": "INT.BIOTECH."
+  },
+  {
+    "symbol": "ICP",
+    "name": "INT.CAP.GRP"
+  },
+  {
+    "symbol": "IPF",
+    "name": "INTER. PERS."
+  },
+  {
+    "symbol": "IHG",
+    "name": "INTERCON. HOTEL"
+  },
+  {
+    "symbol": "IRV",
+    "name": "INTERSERVE"
+  },
+  {
+    "symbol": "ITRK",
+    "name": "INTERTEK GROUP"
+  },
+  {
+    "symbol": "IHP",
+    "name": "INTGRAFIN HLDG"
+  },
+  {
+    "symbol": "IAG",
+    "name": "INTL CONSOL AIR"
+  },
+  {
+    "symbol": "INPP",
+    "name": "INTL PUBLIC"
+  },
+  {
+    "symbol": "INTU",
+    "name": "INTU PROPERTIES"
+  },
+  {
+    "symbol": "IAT",
+    "name": "INVESCO ASIA"
+  },
+  {
+    "symbol": "IVI",
+    "name": "INVESCO INC GTH"
+  },
+  {
+    "symbol": "IPU",
+    "name": "INVESCO PERP UK"
+  },
+  {
+    "symbol": "INVP",
+    "name": "INVESTEC"
+  },
+  {
+    "symbol": "IPO",
+    "name": "IP GROUP"
+  },
+  {
+    "symbol": "ITE",
+    "name": "ITE GRP."
+  },
+  {
+    "symbol": "ITV",
+    "name": "ITV"
+  },
+  {
+    "symbol": "IWG",
+    "name": "IWG"
+  },
+  {
+    "symbol": "JLT",
+    "name": "JARDINE LLOYD"
+  },
+  {
+    "symbol": "JD.",
+    "name": "JD SPORTS"
+  },
+  {
+    "symbol": "JLEN",
+    "name": "JOHN LAING ENV"
+  },
+  {
+    "symbol": "JLG",
+    "name": "JOHN LAING G"
+  },
+  {
+    "symbol": "JLIF",
+    "name": "JOHN LAING INF"
+  },
+  {
+    "symbol": "JMAT",
+    "name": "JOHNSON MATTHEY"
+  },
+  {
+    "symbol": "JAI",
+    "name": "JP MORG.AS"
+  },
+  {
+    "symbol": "JMC",
+    "name": "JP MORG.CHIN"
+  },
+  {
+    "symbol": "JII",
+    "name": "JPMOR INDIAN"
+  },
+  {
+    "symbol": "JPS",
+    "name": "JPMOR. JAP.SML"
+  },
+  {
+    "symbol": "JAM",
+    "name": "JPMOR.AMER."
+  },
+  {
+    "symbol": "JESC",
+    "name": "JPMORG.EUR"
+  },
+  {
+    "symbol": "JPGI",
+    "name": "JPMORG.GBL.G&I"
+  },
+  {
+    "symbol": "JMI",
+    "name": "JPMORG.SMALLER"
+  },
+  {
+    "symbol": "JUSC",
+    "name": "JPMORG.US"
+  },
+  {
+    "symbol": "JCH",
+    "name": "JPMORGAN CLAV"
+  },
+  {
+    "symbol": "JMG",
+    "name": "JPMORGAN EMERG"
+  },
+  {
+    "symbol": "JETG",
+    "name": "JPMORGAN G"
+  },
+  {
+    "symbol": "JGCI",
+    "name": "JPMORGAN GLBL"
+  },
+  {
+    "symbol": "JEMI",
+    "name": "JPMORGAN GLOB"
+  },
+  {
+    "symbol": "JETI",
+    "name": "JPMORGAN I"
+  },
+  {
+    "symbol": "JFJ",
+    "name": "JPMORGAN JAPAN."
+  },
+  {
+    "symbol": "JMF",
+    "name": "JPMORGAN MID"
+  },
+  {
+    "symbol": "JRS",
+    "name": "JPMORGAN RUS"
+  },
+  {
+    "symbol": "JTC",
+    "name": "JTC PLC"
+  },
+  {
+    "symbol": "JEO",
+    "name": "JUPITER EURO."
+  },
+  {
+    "symbol": "JUP",
+    "name": "JUPITER FND"
+  },
+  {
+    "symbol": "JUS",
+    "name": "JUPITER US SML"
+  },
+  {
+    "symbol": "JE.",
+    "name": "JUST EAT"
+  },
+  {
+    "symbol": "JUST",
+    "name": "JUST GROUP"
+  },
+  {
+    "symbol": "KNOS",
+    "name": "KAINOS GROUP"
+  },
+  {
+    "symbol": "KAZ",
+    "name": "KAZ MINERALS"
+  },
+  {
+    "symbol": "KCOM",
+    "name": "KCOM GRP"
+  },
+  {
+    "symbol": "KLR",
+    "name": "KELLER GRP."
+  },
+  {
+    "symbol": "KMR",
+    "name": "KENMARE RES."
+  },
+  {
+    "symbol": "KIT",
+    "name": "KEYSTONE IT"
+  },
+  {
+    "symbol": "KIE",
+    "name": "KIER GROUP"
+  },
+  {
+    "symbol": "KGF",
+    "name": "KINGFISHER"
+  },
+  {
+    "symbol": "LAM",
+    "name": "LAMPRELL"
+  },
+  {
+    "symbol": "LRE",
+    "name": "LANCASHIRE"
+  },
+  {
+    "symbol": "LAND",
+    "name": "LAND SECS."
+  },
+  {
+    "symbol": "LWDB",
+    "name": "LAW.DEB.CORP"
+  },
+  {
+    "symbol": "LGEN",
+    "name": "LEGAL&GEN."
+  },
+  {
+    "symbol": "LTI",
+    "name": "LINDSELL TRAIN"
+  },
+  {
+    "symbol": "LIO",
+    "name": "LIONTRUST A.M."
+  },
+  {
+    "symbol": "LLOY",
+    "name": "LLOYDS GRP."
+  },
+  {
+    "symbol": "LSE",
+    "name": "LON.STK.EXCH"
+  },
+  {
+    "symbol": "LMP",
+    "name": "LONDONMETRIC"
+  },
+  {
+    "symbol": "LMI",
+    "name": "LONMIN"
+  },
+  {
+    "symbol": "LOOK",
+    "name": "LOOKERS"
+  },
+  {
+    "symbol": "LWB",
+    "name": "LOW & BONAR"
+  },
+  {
+    "symbol": "LWI",
+    "name": "LOWLAND INV."
+  },
+  {
+    "symbol": "LSL",
+    "name": "LSL PROP"
+  },
+  {
+    "symbol": "LXI",
+    "name": "LXI REIT"
+  },
+  {
+    "symbol": "MPO",
+    "name": "MACAU PROPERTY"
+  },
+  {
+    "symbol": "MACF",
+    "name": "MACFARLANE GRP."
+  },
+  {
+    "symbol": "MAJE",
+    "name": "MAJEDIE INV."
+  },
+  {
+    "symbol": "EMG",
+    "name": "MAN GROUP"
+  },
+  {
+    "symbol": "MKS",
+    "name": "MARKS & SP."
+  },
+  {
+    "symbol": "MSLH",
+    "name": "MARSHALLS"
+  },
+  {
+    "symbol": "MARS",
+    "name": "MARSTON'S"
+  },
+  {
+    "symbol": "MCP",
+    "name": "MARTIN C.ASIA"
+  },
+  {
+    "symbol": "MNP",
+    "name": "MARTIN C.GLBL"
+  },
+  {
+    "symbol": "MCB",
+    "name": "MCBRIDE"
+  },
+  {
+    "symbol": "MCS",
+    "name": "MCCARTHY"
+  },
+  {
+    "symbol": "MCLS",
+    "name": "MCCOLL'S"
+  },
+  {
+    "symbol": "MCKS",
+    "name": "MCKAY SECS."
+  },
+  {
+    "symbol": "MER",
+    "name": "MEARS GROUP"
+  },
+  {
+    "symbol": "MGP",
+    "name": "MEDICA GROUP P."
+  },
+  {
+    "symbol": "MDC",
+    "name": "MEDICLINIC"
+  },
+  {
+    "symbol": "MXF",
+    "name": "MEDICX FUND"
+  },
+  {
+    "symbol": "MGGT",
+    "name": "MEGGITT"
+  },
+  {
+    "symbol": "MRO",
+    "name": "MELROSE IND"
+  },
+  {
+    "symbol": "MNZS",
+    "name": "MENZIES(J)"
+  },
+  {
+    "symbol": "MRC",
+    "name": "MERCANTILE INV."
+  },
+  {
+    "symbol": "MRCH",
+    "name": "MERCHANTS TST"
+  },
+  {
+    "symbol": "MERL",
+    "name": "MERLIN"
+  },
+  {
+    "symbol": "MTRO",
+    "name": "METRO BK"
+  },
+  {
+    "symbol": "MCRO",
+    "name": "MICRO FOCUS"
+  },
+  {
+    "symbol": "MCGN",
+    "name": "MICROGEN"
+  },
+  {
+    "symbol": "MWY",
+    "name": "MID WYND INT."
+  },
+  {
+    "symbol": "MCT",
+    "name": "MIDDLEFIELD PRF"
+  },
+  {
+    "symbol": "MLC",
+    "name": "MILLENNIUM &COP"
+  },
+  {
+    "symbol": "MAB",
+    "name": "MITCHELLS & BUT"
+  },
+  {
+    "symbol": "MTO",
+    "name": "MITIE GRP."
+  },
+  {
+    "symbol": "GLE",
+    "name": "MJ GLEESON"
+  },
+  {
+    "symbol": "MNDI",
+    "name": "MONDI"
+  },
+  {
+    "symbol": "MONY",
+    "name": "MONEYSUP."
+  },
+  {
+    "symbol": "MNKS",
+    "name": "MONKS INV.TST."
+  },
+  {
+    "symbol": "MTE",
+    "name": "MONTANARO"
+  },
+  {
+    "symbol": "MTU",
+    "name": "MONTANARO UK"
+  },
+  {
+    "symbol": "MGAM",
+    "name": "MORGAN ADVANCED"
+  },
+  {
+    "symbol": "MGNS",
+    "name": "MORGN SINDL GRP"
+  },
+  {
+    "symbol": "MRW",
+    "name": "MORRISON (WM)"
+  },
+  {
+    "symbol": "MOTR",
+    "name": "MOTORPOINT"
+  },
+  {
+    "symbol": "MUT",
+    "name": "MURRAY INC.TST."
+  },
+  {
+    "symbol": "MYI",
+    "name": "MURRAY INTL.TST"
+  },
+  {
+    "symbol": "NANO",
+    "name": "NANOCO"
+  },
+  {
+    "symbol": "NEX",
+    "name": "NAT.EXPRESS"
+  },
+  {
+    "symbol": "NG.",
+    "name": "NATIONAL GRID"
+  },
+  {
+    "symbol": "NBLS",
+    "name": "NB GLOBAL £"
+  },
+  {
+    "symbol": "NBPE",
+    "name": "NB PRIV. EQTY"
+  },
+  {
+    "symbol": "NCC",
+    "name": "NCC GRP"
+  },
+  {
+    "symbol": "NRR",
+    "name": "NEWRIVER REIT"
+  },
+  {
+    "symbol": "NXG",
+    "name": "NEX GROUP"
+  },
+  {
+    "symbol": "NXT",
+    "name": "NEXT"
+  },
+  {
+    "symbol": "NESF",
+    "name": "NEXTENERGY SOL."
+  },
+  {
+    "symbol": "NMC",
+    "name": "NMC HEALTH"
+  },
+  {
+    "symbol": "NXR",
+    "name": "NORCROS"
+  },
+  {
+    "symbol": "NAIT",
+    "name": "NORTH AMERICAN"
+  },
+  {
+    "symbol": "NAS",
+    "name": "NORTH ATL.SMLR"
+  },
+  {
+    "symbol": "NTG",
+    "name": "NORTHGATE"
+  },
+  {
+    "symbol": "NOG",
+    "name": "NOSTRUM OIL&GAS"
+  },
+  {
+    "symbol": "OCDO",
+    "name": "OCADO"
+  },
+  {
+    "symbol": "OTB",
+    "name": "ON THE BEACH"
+  },
+  {
+    "symbol": "OSB",
+    "name": "ONESAVINGS"
+  },
+  {
+    "symbol": "OPHR",
+    "name": "OPHIR ENERGY"
+  },
+  {
+    "symbol": "OXB",
+    "name": "OXFORD BIOMED."
+  },
+  {
+    "symbol": "OXIG",
+    "name": "OXFORD INSTRMNT"
+  },
+  {
+    "symbol": "P2P",
+    "name": "P2P GLOBAL INVE"
+  },
+  {
+    "symbol": "PAC",
+    "name": "PACIFIC ASSETS"
+  },
+  {
+    "symbol": "PHI",
+    "name": "PACIFIC HORIZON"
+  },
+  {
+    "symbol": "PPB",
+    "name": "PADDY PWR BET"
+  },
+  {
+    "symbol": "PAGE",
+    "name": "PAGEGROUP"
+  },
+  {
+    "symbol": "PCA",
+    "name": "PALACE CAPITAL"
+  },
+  {
+    "symbol": "PIN",
+    "name": "PANTHEON INT."
+  },
+  {
+    "symbol": "PAG",
+    "name": "PARAGON GRP."
+  },
+  {
+    "symbol": "PAY",
+    "name": "PAYPOINT"
+  },
+  {
+    "symbol": "PSON",
+    "name": "PEARSON"
+  },
+  {
+    "symbol": "PDG",
+    "name": "PENDRAGON"
+  },
+  {
+    "symbol": "PNN",
+    "name": "PENNON GROUP"
+  },
+  {
+    "symbol": "PLI",
+    "name": "PERPTL.I&G.INV."
+  },
+  {
+    "symbol": "PSH",
+    "name": "PERSHING SQUARE"
+  },
+  {
+    "symbol": "PSN",
+    "name": "PERSIMMON"
+  },
+  {
+    "symbol": "PNL",
+    "name": "PERSONAL ASSETS"
+  },
+  {
+    "symbol": "PDL",
+    "name": "PETRA DIAMONDS"
+  },
+  {
+    "symbol": "PFC",
+    "name": "PETROFAC"
+  },
+  {
+    "symbol": "POG",
+    "name": "PETROPAVLOVSK"
+  },
+  {
+    "symbol": "PETS",
+    "name": "PETS AT HOME"
+  },
+  {
+    "symbol": "PHNX",
+    "name": "PHOENIX GRP(DI)"
+  },
+  {
+    "symbol": "PSDL",
+    "name": "PHOENIX SPREE D"
+  },
+  {
+    "symbol": "PHTM",
+    "name": "PHOTO-ME INTL."
+  },
+  {
+    "symbol": "PCTN",
+    "name": "PICTON PROP"
+  },
+  {
+    "symbol": "PTEC",
+    "name": "PLAYTECH"
+  },
+  {
+    "symbol": "PCFT",
+    "name": "POLAR CAP GBL"
+  },
+  {
+    "symbol": "PCGH",
+    "name": "POLAR CAP GLBL"
+  },
+  {
+    "symbol": "PCT",
+    "name": "POLAR CAP."
+  },
+  {
+    "symbol": "POLY",
+    "name": "POLYMETAL INT"
+  },
+  {
+    "symbol": "PLP",
+    "name": "POLYPIPE GROUP"
+  },
+  {
+    "symbol": "PRV",
+    "name": "PORVAIR"
+  },
+  {
+    "symbol": "PFD",
+    "name": "PREM FOODS"
+  },
+  {
+    "symbol": "PMO",
+    "name": "PREMIER OIL"
+  },
+  {
+    "symbol": "PHP",
+    "name": "PRIMARY HEALTH"
+  },
+  {
+    "symbol": "PEYS",
+    "name": "PRINCESS PRIV £"
+  },
+  {
+    "symbol": "PFG",
+    "name": "PROVIDENT FIN."
+  },
+  {
+    "symbol": "PRU",
+    "name": "PRUDENTIAL"
+  },
+  {
+    "symbol": "PURE",
+    "name": "PURECIRCLE"
+  },
+  {
+    "symbol": "PRTC",
+    "name": "PURETECH"
+  },
+  {
+    "symbol": "PZC",
+    "name": "PZ CUSSONS"
+  },
+  {
+    "symbol": "QQ.",
+    "name": "QINETIQ"
+  },
+  {
+    "symbol": "QLT",
+    "name": "QUILTER PLC"
+  },
+  {
+    "symbol": "RRS",
+    "name": "RANDGOLD RES."
+  },
+  {
+    "symbol": "RDL",
+    "name": "RANGER DLF"
+  },
+  {
+    "symbol": "RNK",
+    "name": "RANK GRP."
+  },
+  {
+    "symbol": "RAT",
+    "name": "RATHBONE BROS"
+  },
+  {
+    "symbol": "RAV",
+    "name": "RAVEN PROP"
+  },
+  {
+    "symbol": "RDI",
+    "name": "RDI REIT"
+  },
+  {
+    "symbol": "RDSA",
+    "name": "RDS 'A'"
+  },
+  {
+    "symbol": "RDSB",
+    "name": "RDS 'B'"
+  },
+  {
+    "symbol": "RCH",
+    "name": "REACH PLC"
+  },
+  {
+    "symbol": "RECI",
+    "name": "REAL EST.CRED"
+  },
+  {
+    "symbol": "RB.",
+    "name": "RECKITT BEN. GP"
+  },
+  {
+    "symbol": "RDW",
+    "name": "REDROW"
+  },
+  {
+    "symbol": "RGL",
+    "name": "REGIONAL REIT"
+  },
+  {
+    "symbol": "REL",
+    "name": "RELX"
+  },
+  {
+    "symbol": "TRIG",
+    "name": "RENEWABLES"
+  },
+  {
+    "symbol": "RWI",
+    "name": "RENEWI PLC"
+  },
+  {
+    "symbol": "RSW",
+    "name": "RENISHAW"
+  },
+  {
+    "symbol": "RTO",
+    "name": "RENTOKIL INITL."
+  },
+  {
+    "symbol": "RESI",
+    "name": "RESIDENTIAL SEC"
+  },
+  {
+    "symbol": "RTN",
+    "name": "RESTAURANT GP"
+  },
+  {
+    "symbol": "RHIM",
+    "name": "RHI MAGNESITA"
+  },
+  {
+    "symbol": "RCDO",
+    "name": "RICARDO"
+  },
+  {
+    "symbol": "RMV",
+    "name": "RIGHTMOVE"
+  },
+  {
+    "symbol": "RIO",
+    "name": "RIO TINTO"
+  },
+  {
+    "symbol": "RCP",
+    "name": "RIT CAPITAL"
+  },
+  {
+    "symbol": "RIV",
+    "name": "RIVER MER"
+  },
+  {
+    "symbol": "RSE",
+    "name": "RIVERSTONE"
+  },
+  {
+    "symbol": "RWA",
+    "name": "ROBERT WALT."
+  },
+  {
+    "symbol": "RR.",
+    "name": "ROLLS-ROYCE HLG"
+  },
+  {
+    "symbol": "ROR",
+    "name": "ROTORK"
+  },
+  {
+    "symbol": "RBS",
+    "name": "ROYAL BANK SCOT"
+  },
+  {
+    "symbol": "RMG",
+    "name": "ROYAL MAIL"
+  },
+  {
+    "symbol": "RPC",
+    "name": "RPC GRP."
+  },
+  {
+    "symbol": "RPS",
+    "name": "RPS GRP."
+  },
+  {
+    "symbol": "RSA",
+    "name": "RSA INS."
+  },
+  {
+    "symbol": "RICA",
+    "name": "RUFFER INV. CO."
+  },
+  {
+    "symbol": "SUS",
+    "name": "S & U"
+  },
+  {
+    "symbol": "SBRE",
+    "name": "SABRE INSUR"
+  },
+  {
+    "symbol": "SAFE",
+    "name": "SAFESTORE"
+  },
+  {
+    "symbol": "SAGA",
+    "name": "SAGA"
+  },
+  {
+    "symbol": "SGE",
+    "name": "SAGE GRP."
+  },
+  {
+    "symbol": "SBRY",
+    "name": "SAINSBURY(J)"
+  },
+  {
+    "symbol": "SNN",
+    "name": "SANNE GROUP"
+  },
+  {
+    "symbol": "SVS",
+    "name": "SAVILLS"
+  },
+  {
+    "symbol": "SDP",
+    "name": "SCHRODER ASIA"
+  },
+  {
+    "symbol": "ATR",
+    "name": "SCHRODER ASIAN"
+  },
+  {
+    "symbol": "SERE",
+    "name": "SCHRODER EUR.R"
+  },
+  {
+    "symbol": "SCF",
+    "name": "SCHRODER INC."
+  },
+  {
+    "symbol": "SJG",
+    "name": "SCHRODER JAPAN"
+  },
+  {
+    "symbol": "SOI",
+    "name": "SCHRODER ORIENT"
+  },
+  {
+    "symbol": "SREI",
+    "name": "SCHRODER REAL"
+  },
+  {
+    "symbol": "SCP",
+    "name": "SCHRODER UK M&S"
+  },
+  {
+    "symbol": "SDR",
+    "name": "SCHRODERS"
+  },
+  {
+    "symbol": "SCAM",
+    "name": "SCOT.AMER.INV."
+  },
+  {
+    "symbol": "SCIN",
+    "name": "SCOT.INV.TST."
+  },
+  {
+    "symbol": "SST",
+    "name": "SCOT.ORNTL.SMLL"
+  },
+  {
+    "symbol": "SMT",
+    "name": "SCOTTISH MORT"
+  },
+  {
+    "symbol": "SDL",
+    "name": "SDL"
+  },
+  {
+    "symbol": "STS",
+    "name": "SECS.SCOTLAND"
+  },
+  {
+    "symbol": "SGRO",
+    "name": "SEGRO"
+  },
+  {
+    "symbol": "SNR",
+    "name": "SENIOR"
+  },
+  {
+    "symbol": "SEQI",
+    "name": "SEQUOIA ECO"
+  },
+  {
+    "symbol": "SRP",
+    "name": "SERCO GRP."
+  },
+  {
+    "symbol": "SFR",
+    "name": "SEVERFIELD"
+  },
+  {
+    "symbol": "SVT",
+    "name": "SEVERN TRENT"
+  },
+  {
+    "symbol": "SHB",
+    "name": "SHAFTESBURY"
+  },
+  {
+    "symbol": "SHP",
+    "name": "SHIRE"
+  },
+  {
+    "symbol": "SHI",
+    "name": "SIG"
+  },
+  {
+    "symbol": "SXX",
+    "name": "SIRIUS MINERALS"
+  },
+  {
+    "symbol": "SRE",
+    "name": "SIRIUS R E."
+  },
+  {
+    "symbol": "SKY",
+    "name": "SKY PLC"
+  },
+  {
+    "symbol": "SN.",
+    "name": "SMITH&NEPHEW"
+  },
+  {
+    "symbol": "SMDS",
+    "name": "SMITH(DS)"
+  },
+  {
+    "symbol": "SMIN",
+    "name": "SMITHS GROUP"
+  },
+  {
+    "symbol": "SKG",
+    "name": "SMURFIT KAP."
+  },
+  {
+    "symbol": "SIA",
+    "name": "SOCO INTL."
+  },
+  {
+    "symbol": "SCT",
+    "name": "SOFTCAT"
+  },
+  {
+    "symbol": "SOPH",
+    "name": "SOPHOS GRP"
+  },
+  {
+    "symbol": "SXS",
+    "name": "SPECTRIS"
+  },
+  {
+    "symbol": "SDY",
+    "name": "SPEEDY HIRE"
+  },
+  {
+    "symbol": "SPX",
+    "name": "SPIRAX-SARCO"
+  },
+  {
+    "symbol": "SPI",
+    "name": "SPIRE HEALTH"
+  },
+  {
+    "symbol": "SPT",
+    "name": "SPIRENT"
+  },
+  {
+    "symbol": "SPO",
+    "name": "SPORTECH"
+  },
+  {
+    "symbol": "SPD",
+    "name": "SPORTSDIRECT"
+  },
+  {
+    "symbol": "SQN",
+    "name": "SQN ASSET FIN"
+  },
+  {
+    "symbol": "SQNX",
+    "name": "SQN ASSET FIN C"
+  },
+  {
+    "symbol": "SSE",
+    "name": "SSE"
+  },
+  {
+    "symbol": "SSPG",
+    "name": "SSP GRP"
+  },
+  {
+    "symbol": "STJ",
+    "name": "ST.JAMES'S PLAC"
+  },
+  {
+    "symbol": "SMP",
+    "name": "ST.MODWEN PROP."
+  },
+  {
+    "symbol": "SGC",
+    "name": "STAGECOACH"
+  },
+  {
+    "symbol": "SLS",
+    "name": "STAND LIFE UK"
+  },
+  {
+    "symbol": "STAN",
+    "name": "STAND.CHART."
+  },
+  {
+    "symbol": "SLET",
+    "name": "STANDARD LIFE"
+  },
+  {
+    "symbol": "SWEF",
+    "name": "STARWOOD EUR"
+  },
+  {
+    "symbol": "SLI",
+    "name": "STD LFE IN PTY"
+  },
+  {
+    "symbol": "SLA",
+    "name": "STD LIFE ABER"
+  },
+  {
+    "symbol": "SLPE",
+    "name": "STD LIFE PRIV."
+  },
+  {
+    "symbol": "STHR",
+    "name": "STHREE"
+  },
+  {
+    "symbol": "STOB",
+    "name": "STOBART"
+  },
+  {
+    "symbol": "STCK",
+    "name": "STOCK SPIRIT"
+  },
+  {
+    "symbol": "SEC",
+    "name": "STRATEGIC EQTY"
+  },
+  {
+    "symbol": "STVG",
+    "name": "STVG"
+  },
+  {
+    "symbol": "SDRY",
+    "name": "SUPERDRY"
+  },
+  {
+    "symbol": "SYNC",
+    "name": "SYNCONA"
+  },
+  {
+    "symbol": "SYNT",
+    "name": "SYNTHOMER"
+  },
+  {
+    "symbol": "TALK",
+    "name": "TALKTALK"
+  },
+  {
+    "symbol": "THRL",
+    "name": "TARGET HEALTH"
+  },
+  {
+    "symbol": "TRS",
+    "name": "TARSUS GRP."
+  },
+  {
+    "symbol": "TATE",
+    "name": "TATE & LYLE"
+  },
+  {
+    "symbol": "TW.",
+    "name": "TAYLOR WIMPEY"
+  },
+  {
+    "symbol": "TBCG",
+    "name": "TBC BANK GP"
+  },
+  {
+    "symbol": "TED",
+    "name": "TED BAKER"
+  },
+  {
+    "symbol": "TEP",
+    "name": "TELECOM PLUS"
+  },
+  {
+    "symbol": "TMPL",
+    "name": "TEMPLE BAR"
+  },
+  {
+    "symbol": "TEM",
+    "name": "TEMPLETON EMRG."
+  },
+  {
+    "symbol": "TEG",
+    "name": "TEN ENT GRP"
+  },
+  {
+    "symbol": "TSCO",
+    "name": "TESCO"
+  },
+  {
+    "symbol": "EUT",
+    "name": "THE EURO INV"
+  },
+  {
+    "symbol": "VTC",
+    "name": "THE VITEC GRP."
+  },
+  {
+    "symbol": "TCG",
+    "name": "THOMAS COOK"
+  },
+  {
+    "symbol": "TIFS",
+    "name": "TI FLUID"
+  },
+  {
+    "symbol": "TPT",
+    "name": "TOPPS TILES"
+  },
+  {
+    "symbol": "TOWN",
+    "name": "TOWN CENTRE"
+  },
+  {
+    "symbol": "TCAP",
+    "name": "TP ICAP"
+  },
+  {
+    "symbol": "TRG",
+    "name": "TR EURO.GROWTH"
+  },
+  {
+    "symbol": "TRY",
+    "name": "TR PROP.INV.TST"
+  },
+  {
+    "symbol": "TPK",
+    "name": "TRAVIS PERKINS"
+  },
+  {
+    "symbol": "TET",
+    "name": "TREATT"
+  },
+  {
+    "symbol": "TRI",
+    "name": "TRIFAST"
+  },
+  {
+    "symbol": "SOHO",
+    "name": "TRIPLE PNT SOC"
+  },
+  {
+    "symbol": "BBOX",
+    "name": "TRITAX BIG BOX"
+  },
+  {
+    "symbol": "TIGT",
+    "name": "TROY INCOME"
+  },
+  {
+    "symbol": "TTG",
+    "name": "TT ELECTRONICS"
+  },
+  {
+    "symbol": "TUI",
+    "name": "TUI AG"
+  },
+  {
+    "symbol": "TLW",
+    "name": "TULLOW OIL"
+  },
+  {
+    "symbol": "TFIF",
+    "name": "TWENTYFOUR INC"
+  },
+  {
+    "symbol": "SMIF",
+    "name": "TWENTYFOUR SEL"
+  },
+  {
+    "symbol": "TYMN",
+    "name": "TYMAN"
+  },
+  {
+    "symbol": "UAI",
+    "name": "U AND I GROUP"
+  },
+  {
+    "symbol": "UDG",
+    "name": "UDG HEALTHCARE"
+  },
+  {
+    "symbol": "UKCM",
+    "name": "UK COMM PROP"
+  },
+  {
+    "symbol": "ULE",
+    "name": "ULTRA ELEC."
+  },
+  {
+    "symbol": "ULVR",
+    "name": "UNILEVER"
+  },
+  {
+    "symbol": "UTG",
+    "name": "UNITE GROUP"
+  },
+  {
+    "symbol": "UU.",
+    "name": "UTD. UTILITIES"
+  },
+  {
+    "symbol": "UEM",
+    "name": "UTILICO EM.MKTS"
+  },
+  {
+    "symbol": "VIN",
+    "name": "VALUE AND INC"
+  },
+  {
+    "symbol": "VEC",
+    "name": "VECTURA"
+  },
+  {
+    "symbol": "VED",
+    "name": "VEDANTA"
+  },
+  {
+    "symbol": "VSVS",
+    "name": "VESUVIUS"
+  },
+  {
+    "symbol": "VCT",
+    "name": "VICTREX"
+  },
+  {
+    "symbol": "VEIL",
+    "name": "VIETNAM ENT"
+  },
+  {
+    "symbol": "VOF",
+    "name": "VINACAP VIET OP"
+  },
+  {
+    "symbol": "VM.",
+    "name": "VIRGIN MONEY"
+  },
+  {
+    "symbol": "VOD",
+    "name": "VODAFONE GRP."
+  },
+  {
+    "symbol": "FAN",
+    "name": "VOLUTION"
+  },
+  {
+    "symbol": "VP.",
+    "name": "VP"
+  },
+  {
+    "symbol": "VSL",
+    "name": "VPC SPECIALTY"
+  },
+  {
+    "symbol": "WEIR",
+    "name": "WEIR GRP."
+  },
+  {
+    "symbol": "JDW",
+    "name": "WETHERSPOON(JD)"
+  },
+  {
+    "symbol": "SMWH",
+    "name": "WH SMITH"
+  },
+  {
+    "symbol": "WTB",
+    "name": "WHITBREAD"
+  },
+  {
+    "symbol": "WMH",
+    "name": "WILLIAM HILL"
+  },
+  {
+    "symbol": "WIN",
+    "name": "WINCANTON"
+  },
+  {
+    "symbol": "WTAN",
+    "name": "WITAN INV TST"
+  },
+  {
+    "symbol": "WPC",
+    "name": "WITAN PAC"
+  },
+  {
+    "symbol": "WIZZ",
+    "name": "WIZZ AIR"
+  },
+  {
+    "symbol": "WG.",
+    "name": "WOOD GRP(J)"
+  },
+  {
+    "symbol": "WPCT",
+    "name": "WOODFORD"
+  },
+  {
+    "symbol": "WKP",
+    "name": "WORKSPACE GRP."
+  },
+  {
+    "symbol": "WWH",
+    "name": "WORLDWIDE HC"
+  },
+  {
+    "symbol": "WPP",
+    "name": "WPP"
+  },
+  {
+    "symbol": "XAR",
+    "name": "XAAR"
+  },
+  {
+    "symbol": "XPP",
+    "name": "XP POWER"
+  },
+  {
+    "symbol": "XPS",
+    "name": "XPS PENSIONS"
+  },
+  {
+    "symbol": "ZTF",
+    "name": "ZOTEFOAMS"
+  },
+  {
+    "symbol": "ZPG",
+    "name": "ZPG PLC"
+  }
+]
