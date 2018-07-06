@@ -1,21 +1,45 @@
 const pubSub = require('../helpers/pubsub')
 
 const Portfolio = function(container){
-    this.container = container
+  this.container = container
 }
 
 Portfolio.prototype.bindEvents = function() {
-    pubSub.subscribe('Portfolio-view:get-portfolio', (event) => {
-        const portfolio = event.detail
-        this.render(portfolio) 
-    })
+  pubSub.subscribe('Portfolio-view:get-portfolio', (event) => {
+    const portfolio = event.detail
+    this.render(portfolio) 
+  })
 }
 
 Portfolio.prototype.render = function(portfolio) {
-    for (const row of portfolio) {
-        const {symbol, purchasePrice, currency, volume} = row
-        console.log(symbol, purchasePrice, currency, volume)
+	const table = document.createElement('table')
+  const thead = document.createElement('thead')
+  const thead_tr = document.createElement('tr')
+
+  const headings = ['Symbol', 'Price', 'Currency', 'Volume']
+  for (const heading of headings) {
+    const td = document.createElement('td')
+    td.textContent = heading
+    thead_tr.appendChild(td)
+  }
+
+  thead.appendChild(thead_tr)
+
+  const tbody = document.createElement('tbody')
+	for (const row of portfolio) {
+    const tbody_tr = document.createElement('tr')
+    for (const key in row) {
+      const element = document.createElement('td')
+      element.textContent = row[key]
+      tbody_tr.appendChild(element)
     }
+
+    tbody.appendChild(tbody_tr)
+  }
+  
+  table.appendChild(thead)
+  table.appendChild(tbody)
+  this.container.appendChild(table)
 }
 
 module.exports = Portfolio
