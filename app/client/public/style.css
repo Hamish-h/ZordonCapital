@@ -3,12 +3,18 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 ._id {
   display: none;
 }
 
-#portfolio {
-  display: inline-block;
+.box {
+  margin: 0.25rem 0;
   border: 2px solid black;
   border-radius: 0.5rem;
   padding: 0.75rem;
@@ -38,4 +44,18 @@ html {
 
 #portfolio tr:nth-child(even) {
   background-color: rgba(192, 192, 192, 0.5);
+}
+
+#new-share {
+  display: grid;
+  grid-template-columns: min-content 6rem;
+}
+
+#new-share input[type=submit] {
+  grid-column: span 2;
+} 
+
+#new-share label{
+  white-space: nowrap;
+  margin: 0.25rem 0.75rem;
 }
