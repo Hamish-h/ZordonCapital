@@ -16,6 +16,10 @@ PortfolioView.prototype.getData = function() {
 }
 
 PortfolioView.prototype.render = function(portfolio) {
+  this.container.innerHTML = ''
+
+  const htag = document.createElement('h2')
+  htag.textContent = 'My Portfolio'
 	const table = document.createElement('table')
   const thead = document.createElement('thead')
   const thead_tr = document.createElement('tr')
@@ -45,6 +49,7 @@ PortfolioView.prototype.render = function(portfolio) {
   
   table.appendChild(thead)
   table.appendChild(tbody)
+  this.container.appendChild(htag)
   this.container.appendChild(table)
 }
 
