@@ -1,24 +1,29 @@
 const pubSub = require('../helpers/pubsub')
 
-const Portfolio = function(container){
+const PortfolioView = function(container){
   this.container = container
 }
 
-Portfolio.prototype.bindEvents = function() {
-  pubSub.subscribe('Portfolio-view:get-portfolio', (event) => {
+PortfolioView.prototype.bindEvents = function() {
+  pubSub.subscribe('Portfolio-view:portfolio-data', (event) => {
     const portfolio = event.detail
     this.render(portfolio) 
   })
 }
 
-Portfolio.prototype.render = function(portfolio) {
+PortfolioView.prototype.getData = function() {
+  pubSub.publish('Portfolio:get-portfolio')
+}
+
+PortfolioView.prototype.render = function(portfolio) {
 	const table = document.createElement('table')
   const thead = document.createElement('thead')
   const thead_tr = document.createElement('tr')
 
-  const headings = ['Symbol', 'Price', 'Currency', 'Volume']
+  const headings = ['_id', 'Symbol', 'Price', 'Currency', 'Volume']
   for (const heading of headings) {
     const td = document.createElement('td')
+    td.className = heading
     td.textContent = heading
     thead_tr.appendChild(td)
   }
@@ -30,6 +35,7 @@ Portfolio.prototype.render = function(portfolio) {
     const tbody_tr = document.createElement('tr')
     for (const key in row) {
       const element = document.createElement('td')
+      element.className = key
       element.textContent = row[key]
       tbody_tr.appendChild(element)
     }
@@ -42,7 +48,7 @@ Portfolio.prototype.render = function(portfolio) {
   this.container.appendChild(table)
 }
 
-module.exports = Portfolio
+module.exports = PortfolioView
 
 
 
