@@ -20,9 +20,9 @@ PortfolioFormView.prototype.handleSubmit = function (evt) {
 PortfolioFormView.prototype.createShare = function (form) {
     const newShare = {
        symbol: form.symbol.value,
-       purchaseprice: form.purchaseprice.value,
+       purchaseprice: Number(form.purchaseprice.value),
        currency: form.currency.value,
-       volume: form.volume.value 
+       volume: Number(form.volume.value)
     }
     return newShare;
 }
