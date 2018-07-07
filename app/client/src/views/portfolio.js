@@ -15,6 +15,10 @@ PortfolioView.prototype.getData = function() {
   pubSub.publish('Portfolio:get-portfolio')
 }
 
+// PortfolioView.prototype.deleteShare = function() {
+//   pubSub.publish('Portfolio-model:portfolio-data')
+// }
+
 PortfolioView.prototype.render = function(portfolio) {
   this.container.innerHTML = ''
 

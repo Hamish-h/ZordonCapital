@@ -27,16 +27,5 @@ PortfolioFormView.prototype.createShare = function (form) {
     return newShare;
 }
 
-PortfolioFormView.prototype.createDeleteButton = function (shareId) {
-    const button = document.createElement('button');
-    button.classList.add('delete-btn');
-    button.value = shareId;
-  
-    button.addEventListener('click', (evt) => {
-      PubSub.publish('PortfolioFormView:delete-btn-clicked', evt.target.value);
-    })
-    return button
-}
-
 
 module.exports = PortfolioFormView;
