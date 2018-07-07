@@ -27,4 +27,13 @@ PortfolioModel.prototype.postShare = function (share) {
   });
 };
 
+PortfolioModel.prototype.deleteShare = function (shareId) {
+  const request = new Request(this.url);
+  request.delete(shareId)
+    .then((shares) => {
+      PubSub.publish('Portfolio-view:portfolio-data', shares);
+    })
+    .catch(console.error);
+};
+
 module.exports = PortfolioModel
