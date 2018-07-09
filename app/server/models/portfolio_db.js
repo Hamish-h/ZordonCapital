@@ -2,13 +2,14 @@ const MongoClient = require('mongodb').MongoClient;
 const express = require('express');
 const ObjectID = require('mongodb').ObjectID;
 const av = require('./alphaVantage_api')
+const company = require('./company_db');
 
 function connect(callback) {
   MongoClient.connect('mongodb://localhost:27017', (err, client) => {
     if (err) {
       console.error(err);
     }
-    
+
     const db = client.db('zordoncapital');
     const portfolioCollection = db.collection('portfolio');
 
@@ -35,6 +36,15 @@ function connect(callback) {
               } else {
                 stocks[ndx].currentPrice = match.price
               }
+
+              company.getName(stock.symbol, (err, name)=>{
+                if (err){
+                  stock.companyName = 'error'
+                } else {
+                  stock.companyName = name
+                }
+                console.log({test:stock.companyName})
+              })
             }
 
             callback(stocks)
