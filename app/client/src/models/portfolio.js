@@ -17,7 +17,6 @@ PortfolioModel.prototype.bindEvents = function() {
   pubSub.subscribe('PortfolioFormView:share-submitted', (evt) => {
     this.postShare(evt.detail);
   });
-
 };
 
 PortfolioModel.prototype.getPortfolio = function () {
