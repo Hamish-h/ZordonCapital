@@ -9,6 +9,8 @@ CompanySearchView.prototype.bindEvents = function() {
     event.preventDefault()
     const searchText = event.target.company_search_text.value
     pubSub.publish('CompanySearchView:search-text', searchText)
+
+    event.target.reset()
   })
 
   pubSub.subscribe('Companies:search-results', event => {
@@ -19,6 +21,7 @@ CompanySearchView.prototype.bindEvents = function() {
 
 CompanySearchView.prototype.render = function(searchResults) {
   const resultElement = this.container.querySelector('#company-search-results tbody')
+  resultElement.innerHTML = ''
 
   for (searchResult of searchResults) {
     const tr = document.createElement('tr')
@@ -27,12 +30,19 @@ CompanySearchView.prototype.render = function(searchResults) {
     symbol.textContent = searchResult.symbol
 
     const name = document.createElement('td')
-    name.textContent = searchResult.name
+    name.textContent = htmlDecode(searchResult.name)
 
     tr.appendChild(symbol)
     tr.appendChild(name)
     resultElement.appendChild(tr)
   }
+}
+
+function htmlDecode(input){
+  var e = document.createElement('div');
+  e.innerHTML = input;
+  // handle case of empty input
+  return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
 }
 
 module.exports = CompanySearchView
