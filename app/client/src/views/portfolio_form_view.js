@@ -21,7 +21,7 @@ PortfolioFormView.prototype.createShare = function (form) {
     const newShare = {
        symbol: form.symbol.value,
        companyname: form.companyname.value,
-       purchaseprice: Number(form.purchaseprice.value),
+       purchasePrice: Number(form.purchaseprice.value),
        volume: Number(form.volume.value),
     }
     return newShare;
