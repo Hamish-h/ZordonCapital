@@ -17,13 +17,32 @@
   <div class="box" id="portfolio"></div>
 
   <div class="box">
+    <form id="company-search">
+      <input type="search" id="company-search-text">
+      <input type="submit" value="Search" id="company-search-submit">
+
+      <table id="company_search_results">
+        <thead>
+          <tr>
+            <td>Symbol</td>
+            <td>Company Name</td>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+    </form>
+
+    <hr>
+
     <form id="new-share">
-      
+
       <label for="symbol">Symbol</label>
-      <input type="text" id="symbol" required/>
+      <input type="text" id="symbol" disabled/>
 
       <label for="companyname">Company Name</label>
-      <input type="text" id="companyname" required/>
+      <input type="text" id="companyname" disabled/>
 
       <label for="purchaseprice">Purchase Price</label>
       <input type="number" id="purchaseprice" required/>
@@ -31,7 +50,7 @@
       <label for="volume">Volume</label>
       <input type="number" id="volume">
 
-      <input type="submit" value="save"/>
+      <input type="submit" value="Save"/>
 
     </form>
   </div>
