@@ -28,7 +28,7 @@ PortfolioView.prototype.render = function(portfolio) {
   const thead = document.createElement('thead')
   const thead_tr = document.createElement('tr')
 
-  const headings = ['_id', 'Symbol', 'Company Name', 'Price', 'Date', 'Currency', 'Volume']
+  const headings = ['_id', 'Symbol', 'Company Name', 'Price', 'Date', 'Currency', 'Volume', 'Current Price']
   for (const heading of headings) {
     const td = document.createElement('td')
     td.className = heading
