@@ -1,6 +1,12 @@
 const MongoClient = require ('mongodb').MongoClient;
+const router = require('express').Router();
+router.get('/:search_text', (req, res) =>{
+  search(req.params.search_text, (error, companies)=>{
+    res.json(companies)  
+  })
+})
 
-function getName(symbol, callback){
+function search(text, callback){
     MongoClient.connect('mongodb://localhost:27017', (err, client) => {
         if (err) {
             console.log(err);
@@ -11,11 +17,12 @@ function getName(symbol, callback){
         const db = client.db('zordoncapital');
         const companyCollection = db.collection('companies');
 
-        companyCollection.findOne({symbol})
-        .then(match =>{ 
-            callback(null, match.name)
-        })
+        companyCollection.find({name:new RegExp(`.*${text}.*`, 'i')})
+          .toArray()
+            .then(matches =>{ 
+                callback(null, matches)
+            })
     })
 }
 
-module.exports = {getName};
+module.exports = router;
