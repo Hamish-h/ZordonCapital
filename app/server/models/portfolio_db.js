@@ -1,6 +1,7 @@
 const MongoClient = require('mongodb').MongoClient;
 const express = require('express');
 const ObjectID = require('mongodb').ObjectID;
+const av = require('./alphaVantage_api')
 
 function connect(callback) {
   MongoClient.connect('mongodb://localhost:27017', (err, client) => {
@@ -21,7 +22,20 @@ function connect(callback) {
       portfolioCollection
         .find()
         .toArray()
-        .then(callback)
+        .then(stocks => {
+          const symbols = stocks.map(stock => stock.symbol)
+
+          av.batchQuote(symbols, (error, prices) => {
+            console.log(prices)
+            for (const ndx in stocks) {
+              const stock = stocks[ndx]
+              const price = prices.find(price => price.symbol===stock.symbol).price
+              stocks[ndx].currentPrice = price
+            }
+
+            callback(stocks)
+          })
+        })
         .catch(error => logError(error, res)); 
     }
 
