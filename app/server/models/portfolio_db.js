@@ -2,13 +2,14 @@ const MongoClient = require('mongodb').MongoClient;
 const express = require('express');
 const ObjectID = require('mongodb').ObjectID;
 const av = require('./alphaVantage_api')
+const company = require('./company_db');
 
 function connect(callback) {
   MongoClient.connect('mongodb://localhost:27017', (err, client) => {
     if (err) {
       console.error(err);
     }
-    
+
     const db = client.db('zordoncapital');
     const portfolioCollection = db.collection('portfolio');
 
@@ -29,8 +30,12 @@ function connect(callback) {
             console.log(prices)
             for (const ndx in stocks) {
               const stock = stocks[ndx]
-              const price = prices.find(price => price.symbol===stock.symbol).price
-              stocks[ndx].currentPrice = price
+              const match = prices.find(price => price.symbol===stock.symbol)
+              if (!match) {
+                stocks[ndx].currentPrice = 'no price found'
+              } else {
+                stocks[ndx].currentPrice = match.price
+              }
             }
 
             callback(stocks)
