@@ -36,15 +36,6 @@ function connect(callback) {
               } else {
                 stocks[ndx].currentPrice = match.price
               }
-
-              company.getName(stock.symbol, (err, name)=>{
-                if (err){
-                  stock.companyName = 'error'
-                } else {
-                  stock.companyName = name
-                }
-                console.log({test:stock.companyName})
-              })
             }
 
             callback(stocks)
