@@ -29,8 +29,12 @@ function connect(callback) {
             console.log(prices)
             for (const ndx in stocks) {
               const stock = stocks[ndx]
-              const price = prices.find(price => price.symbol===stock.symbol).price
-              stocks[ndx].currentPrice = price
+              const match = prices.find(price => price.symbol===stock.symbol)
+              if (!match) {
+                stocks[ndx].currentPrice = 'no price found'
+              } else {
+                stocks[ndx].currentPrice = match.price
+              }
             }
 
             callback(stocks)
