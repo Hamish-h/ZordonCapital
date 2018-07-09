@@ -1,4 +1,4 @@
-const Portfolio_view = require('./views/portfolio')
+const Portfolio_view = require('./views/portfolio_view')
 const PortfolioFormView = require('./views/portfolio_form_view')
 const PortfolioModel = require('./models/portfolio')
 

@@ -6,6 +6,10 @@ const PortfolioModel = function() {
 }
 
 PortfolioModel.prototype.bindEvents = function() {
+  pubSub.subscribe('Portfolio:delete-btn-clicked', (evt) =>{
+    this.deleteShare(evt.detail);
+  });
+
   pubSub.subscribe('Portfolio:get-portfolio', () => {
     this.getPortfolio()
   });
@@ -13,6 +17,7 @@ PortfolioModel.prototype.bindEvents = function() {
   pubSub.subscribe('PortfolioFormView:share-submitted', (evt) => {
     this.postShare(evt.detail);
   });
+
 };
 
 PortfolioModel.prototype.getPortfolio = function () {
@@ -23,6 +28,12 @@ PortfolioModel.prototype.getPortfolio = function () {
 
 PortfolioModel.prototype.postShare = function (share) {
   request.post(this.url, share, (error, data) => {
+    pubSub.publish('Portfolio-view:portfolio-data', data)
+  });
+};
+
+PortfolioModel.prototype.deleteShare = function (shareId) {
+  request.delete(this.url, shareId, (error, data) => {
     pubSub.publish('Portfolio-view:portfolio-data', data)
   });
 };
