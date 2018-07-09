@@ -22,11 +22,7 @@ PortfolioFormView.prototype.createShare = function (form) {
        symbol: form.symbol.value,
        companyname: form.companyname.value,
        purchaseprice: Number(form.purchaseprice.value),
-       purchasedate: form.purchasedate.value,
-       currency: form.currency.value,
        volume: Number(form.volume.value),
-       currentPrice: Number(form.currentprice.value)
-
     }
     return newShare;
 }
