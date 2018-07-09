@@ -1,6 +1,8 @@
 const Portfolio_view = require('./views/portfolio_view')
 const PortfolioFormView = require('./views/portfolio_form_view')
 const PortfolioModel = require('./models/portfolio')
+const CompaniesModel = require('./models/companies')
+
 const CompanySearchView = require('./views/company_search')
 
 const portfolioElement = document.querySelector('#portfolio')
@@ -14,6 +16,10 @@ portfolioFormView.bindEvents();
 const searchElement = document.querySelector('#company-search')
 const companySearch = new CompanySearchView(searchElement)
 companySearch.bindEvents()
+
+
+const companiesModel = new CompaniesModel
+companiesModel.bindEvents()
 
 const portfolioModel = new PortfolioModel
 portfolioModel.bindEvents()

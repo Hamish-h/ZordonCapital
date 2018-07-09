@@ -7,7 +7,7 @@ const CompanySearchView = function(container){
 CompanySearchView.prototype.bindEvents = function() {
   this.container.addEventListener('submit', event => {
     event.preventDefault()
-    const searchText = event.target.company_search_results.value
+    const searchText = event.target.company_search_text.value
     pubSub.publish('CompanySearchView:search-text', searchText)
   })
 }

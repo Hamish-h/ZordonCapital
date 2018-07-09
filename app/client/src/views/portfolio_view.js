@@ -47,7 +47,7 @@ PortfolioView.prototype.render = function(portfolio) {
 
     tbody.appendChild(tbody_tr)
   }
-  
+
   table.appendChild(thead)
   table.appendChild(tbody)
   this.container.appendChild(htag)
