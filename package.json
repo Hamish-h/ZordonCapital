@@ -5,6 +5,7 @@
   "main": "app/server/index.js",
   "scripts": {
     "start": "npm run start:client & npm run start:server",
+    "seed": "mongoimport -d=zordoncapital -c=companies --jsonArray < ./seed_data/nasdaq.json",
     "start:client": "webpack -w",
     "start:server": "nodemon app/server"
   },
