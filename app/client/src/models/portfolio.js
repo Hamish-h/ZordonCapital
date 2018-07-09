@@ -6,7 +6,7 @@ const PortfolioModel = function() {
 }
 
 PortfolioModel.prototype.bindEvents = function() {
-  PubSub.subscribe('Portfolio:delete-btn-clicked', (evt) =>{
+  pubSub.subscribe('Portfolio:delete-btn-clicked', (evt) =>{
     this.deleteShare(evt.detail);
   });
 
