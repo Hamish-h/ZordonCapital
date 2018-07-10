@@ -25,6 +25,8 @@ CompanySearchView.prototype.render = function(searchResults) {
 
   for (searchResult of searchResults) {
     const tr = document.createElement('tr')
+    tr.setAttribute('data-name', searchResult.name)
+    tr.setAttribute('data-symbol', searchResult.symbol)
 
     const symbol_td = document.createElement('td')
     const symbol = document.createElement('a')
@@ -42,7 +44,12 @@ CompanySearchView.prototype.render = function(searchResults) {
     symbol.addEventListener('click', handleClick)
     function handleClick(event){
         event.preventDefault()
-        pubSub.publish('CompanySearch:company-selected', searchResult)
+        const company = tr.attributes
+
+        pubSub.publish('CompanySearch:company-selected', {
+          name:company['data-name'].value,
+          symbol:company['data-symbol'].value
+        })
     }
 
     tr.appendChild(symbol_td)
