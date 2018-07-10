@@ -26,14 +26,27 @@ CompanySearchView.prototype.render = function(searchResults) {
   for (searchResult of searchResults) {
     const tr = document.createElement('tr')
 
-    const symbol = document.createElement('td')
+    const symbol_td = document.createElement('td')
+    const symbol = document.createElement('a')
     symbol.textContent = searchResult.symbol
+    symbol.href = `#${searchResult.symbol}`
+    symbol_td.appendChild(symbol)
 
-    const name = document.createElement('td')
+    const name_td = document.createElement('td')
+    const name = document.createElement('a')
     name.textContent = htmlDecode(searchResult.name)
+    name.href = `#${searchResult.symbol}`
+    name_td.appendChild(name)
 
-    tr.appendChild(symbol)
-    tr.appendChild(name)
+    name.addEventListener('click', handleClick)
+    symbol.addEventListener('click', handleClick)
+    function handleClick(event){
+        event.preventDefault()
+        pubSub.publish('CompanySearch:company-selected', searchResult)
+    }
+
+    tr.appendChild(symbol_td)
+    tr.appendChild(name_td)
     resultElement.appendChild(tr)
   }
 }
