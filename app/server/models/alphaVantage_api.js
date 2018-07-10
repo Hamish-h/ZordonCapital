@@ -26,7 +26,7 @@ function batchQuote(symbols, callback) {
     })
 }
 
-function singleQuote(symbols, callback) {
+function singleQuoteDaily(symbols, callback) {
   if (symbols.length ===0) {
     callback([])
     return
@@ -34,12 +34,12 @@ function singleQuote(symbols, callback) {
 
   symbols = symbols.join(',')
 
-  const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo`
+  const url = `https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols=${symbols}&apikey=${apiKey}`
 
   fetch(url)
     .then(res => res.json())
     .then(res => {
-      const quotes = res['Single Quote'].map(quote => {
+      const quotes = res['Stock Quotes'].map(quote => {
         return {
           symbol: quote['1. symbol'],
           price: Number(quote['2. price'])
@@ -50,4 +50,4 @@ function singleQuote(symbols, callback) {
     })
 }
 
-module.exports = {batchQuote}
+module.exports = {batchQuote, singleQuoteDaily}
