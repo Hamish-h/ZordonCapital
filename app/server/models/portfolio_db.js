@@ -83,7 +83,7 @@ function connect(callback) {
         .catch(error => logError(error, res));
     });
 
-    portfolioRouter.get('/:chart-data/all', (req, res) => {
+    portfolioRouter.get('/chart-data/all', (req, res) => {
       av.singleQuoteDaily(req.params.symbol, (err, portfolioChartData) => {
           if (err) {
               console.log(err);
@@ -91,9 +91,9 @@ function connect(callback) {
               res.json({ err })
               return 
           } 
-          res.json({ portfolioChartData })
+          res.json(portfolioChartData)
       })
-  })
+    })
 
     portfolioRouter.delete('/:id', (req, res) => {
       const _id = ObjectId(req.params.id);

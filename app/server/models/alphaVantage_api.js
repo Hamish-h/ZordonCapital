@@ -26,19 +26,20 @@ function batchQuote(symbols, callback) {
     })
 }
 
-function singleQuoteDaily(symbols, callback) {
-  if (symbols.length ===0) {
-    callback([])
-    return
-  }
-  
-  const quotes = res['Stock Quotes'].map(quote => {
-    return {
-      symbol: quote['1. symbol'],
-      price: Number(quote['2. price'])
+function singleQuoteDaily(symbol, callback) {
+  const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=${apiKey}`
+  fetch(url)
+  .then(res => res.json())
+  .then(res => {
+    const dailyPrices = res['Time Series (Daily)']
+    const priceResults = []
+    for ( const dailyPriceDate in dailyPrices){
+      const dailyPrice = dailyPrices[dailyPriceDate]['4. close']
+      const formattedDate = new Date(dailyPriceDate).valueOf()
+      priceResults.push([formattedDate, Number(dailyPrice)])
     }
-  })
-  symbols = symbols.join(',')
+    callback(null, priceResults)
+  }).catch(error => callback(error))
 }
 
 function quote(symbol, callback) {
