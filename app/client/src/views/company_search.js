@@ -18,6 +18,14 @@ CompanySearchView.prototype.bindEvents = function() {
     const searchResults = event.detail
     this.render(searchResults)
   })
+
+  pubSub.subscribe('Companies:company-chart-data', (event) => {
+    this.renderChart(event.detail)
+  })
+}
+
+CompanySearchView.prototype.renderChart = function(chartData) {
+  console.log(chartData);
 }
 
 CompanySearchView.prototype.render = function(searchResults) {

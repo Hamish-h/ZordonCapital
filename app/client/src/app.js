@@ -9,7 +9,7 @@ const portfolioElement = document.querySelector('#portfolio')
 const portfolioView = new Portfolio_view(portfolioElement)
 portfolioView.bindEvents()
 
-const shares = document.querySelector('#new-share');
+const shares = document.querySelector('#buy-share');
 const portfolioFormView = new PortfolioFormView(shares);
 portfolioFormView.bindEvents();
 

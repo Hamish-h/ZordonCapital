@@ -1,7 +1,8 @@
 const pubSub = require('../helpers/pubsub.js');
 
-const PortfolioFormView = function (form) {
-    this.form = form;
+const PortfolioFormView = function (container) {
+    this.form = container.querySelector('#new-share');
+    this.chart = container.querySelector('.chart');
 }
 
 PortfolioFormView.prototype.bindEvents = function () {
