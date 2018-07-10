@@ -8,8 +8,13 @@ PortfolioFormView.prototype.bindEvents = function () {
     this.form.addEventListener('submit', (evt) => {
         this.handleSubmit(evt);
     })
+
     pubSub.subscribe('CompanySearch:company-selected', event=>{
         this.companySelect(event.detail)
+    })
+
+    pubSub.subscribe('Companies:price-result', event => {
+        this.updatePrice(event.detail)
     })
 };
 
@@ -18,6 +23,9 @@ PortfolioFormView.prototype.handleSubmit = function (evt) {
     const newShare = this.createShare(evt.target);
     pubSub.publish('PortfolioFormView:share-submitted', newShare);
     evt.target.reset();
+
+    const submitButton = this.form.querySelector('input[type="submit"]')
+    submitButton.disabled = true
 }
 
 PortfolioFormView.prototype.createShare = function (form) {
@@ -35,6 +43,19 @@ PortfolioFormView.prototype.companySelect = function (company){
     const name = this.form.querySelector('#companyname')
     symbol.value = company.symbol
     name.value = company.name
+
+    const priceElement = this.form.querySelector('#purchaseprice')
+    priceElement.value = 'Loading...'
+
+    pubSub.publish('PortfolioFormView:get-price', company.symbol)
+}
+
+PortfolioFormView.prototype.updatePrice = function(price) {
+    const priceElement = this.form.querySelector('#purchaseprice')
+    priceElement.value = price
+
+    const submitButton = this.form.querySelector('input[type="submit"]')
+    submitButton.disabled = false
 }
 
 

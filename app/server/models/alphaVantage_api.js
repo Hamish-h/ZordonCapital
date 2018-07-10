@@ -31,23 +31,32 @@ function singleQuoteDaily(symbols, callback) {
     callback([])
     return
   }
-
+  
+  const quotes = res['Stock Quotes'].map(quote => {
+    return {
+      symbol: quote['1. symbol'],
+      price: Number(quote['2. price'])
+    }
+  })
   symbols = symbols.join(',')
+}
 
-  const url = `https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols=${symbols}&apikey=${apiKey}`
+function quote(symbol, callback) {
+  const url = `https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols=${symbol}&apikey=${apiKey}`
 
   fetch(url)
     .then(res => res.json())
     .then(res => {
-      const quotes = res['Stock Quotes'].map(quote => {
-        return {
-          symbol: quote['1. symbol'],
-          price: Number(quote['2. price'])
-        }
-      })
+      console.log(res)
+      const quote = res['Stock Quotes']
 
-      callback(null, quotes)
+      if (quote.length === 0) {
+        callback('error')
+      } else {
+        const price = Number(res['Stock Quotes'][0]['2. price'])
+        callback(null, price)
+      }
     })
 }
 
-module.exports = {batchQuote, singleQuoteDaily}
+module.exports = {batchQuote, quote, singleQuoteDaily}
