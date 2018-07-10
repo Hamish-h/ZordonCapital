@@ -3,6 +3,7 @@ const express = require('express');
 const ObjectID = require('mongodb').ObjectID;
 const av = require('./alphaVantage_api')
 const company = require('./company_db');
+// const highchartView = require('../src/views/highchart_view')
 
 function connect(callback) {
   MongoClient.connect('mongodb://localhost:27017', (err, client) => {
@@ -81,6 +82,18 @@ function connect(callback) {
         .then(allShares(shares => res.json(shares)))
         .catch(error => logError(error, res));
     });
+
+    portfolioRouter.get('/chart-data/all', (req, res) => {
+      av.singleQuoteDaily(req.params.symbol, (err, portfolioChartData) => {
+          if (err) {
+              console.log(err);
+              res.status(500);
+              res.json({ err })
+              return 
+          } 
+          res.json(portfolioChartData)
+      })
+    })
 
     portfolioRouter.delete('/:id', (req, res) => {
       const _id = ObjectId(req.params.id);

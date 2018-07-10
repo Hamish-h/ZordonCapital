@@ -26,6 +26,22 @@ function batchQuote(symbols, callback) {
     })
 }
 
+function singleQuoteDaily(symbol, callback) {
+  const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=${apiKey}`
+  fetch(url)
+  .then(res => res.json())
+  .then(res => {
+    const dailyPrices = res['Time Series (Daily)']
+    const priceResults = []
+    for ( const dailyPriceDate in dailyPrices){
+      const dailyPrice = dailyPrices[dailyPriceDate]['4. close']
+      const formattedDate = new Date(dailyPriceDate).valueOf()
+      priceResults.push([formattedDate, Number(dailyPrice)])
+    }
+    callback(null, priceResults)
+  }).catch(error => callback(error))
+}
+
 function quote(symbol, callback) {
   const url = `https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols=${symbol}&apikey=${apiKey}`
 
@@ -44,4 +60,4 @@ function quote(symbol, callback) {
     })
 }
 
-module.exports = {batchQuote, quote}
+module.exports = {batchQuote, quote, singleQuoteDaily}
