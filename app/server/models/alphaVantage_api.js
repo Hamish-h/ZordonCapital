@@ -26,4 +26,28 @@ function batchQuote(symbols, callback) {
     })
 }
 
+function singleQuote(symbols, callback) {
+  if (symbols.length ===0) {
+    callback([])
+    return
+  }
+
+  symbols = symbols.join(',')
+
+  const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=demo`
+
+  fetch(url)
+    .then(res => res.json())
+    .then(res => {
+      const quotes = res['Single Quote'].map(quote => {
+        return {
+          symbol: quote['1. symbol'],
+          price: Number(quote['2. price'])
+        }
+      })
+
+      callback(null, quotes)
+    })
+}
+
 module.exports = {batchQuote}
