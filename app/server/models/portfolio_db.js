@@ -2,8 +2,6 @@ const MongoClient = require('mongodb').MongoClient;
 const express = require('express');
 const ObjectID = require('mongodb').ObjectID;
 const av = require('./alphaVantage_api')
-const company = require('./company_db');
-// const highchartView = require('../src/views/highchart_view')
 
 function connect(callback) {
   MongoClient.connect('mongodb://localhost:27017', (err, client) => {
@@ -83,15 +81,15 @@ function connect(callback) {
         .catch(error => logError(error, res));
     });
 
-    portfolioRouter.get('/chart-data/all', (req, res) => {
+    portfolioRouter.get('/chart-data/:symbol', (req, res) => {
       av.singleQuoteDaily(req.params.symbol, (err, portfolioChartData) => {
-          if (err) {
-              console.log(err);
-              res.status(500);
-              res.json({ err })
-              return 
-          } 
-          res.json(portfolioChartData)
+        if (err) {
+          console.log(err);
+          res.status(500);
+          res.json({ err })
+          return 
+        } 
+        res.json(portfolioChartData)
       })
     })
 

@@ -27,7 +27,7 @@ function batchQuote(symbols, callback) {
 }
 
 function singleQuoteDaily(symbol, callback) {
-  const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&apikey=${apiKey}`
+  const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=${apiKey}`
   fetch(url)
   .then(res => res.json())
   .then(res => {
