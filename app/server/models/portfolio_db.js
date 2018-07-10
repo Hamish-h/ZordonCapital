@@ -64,6 +64,7 @@ function connect(callback) {
 
     portfolioRouter.post('/', (req, res) => {
       const newData = req.body;
+       newData.purchaseDate = Date();
       
       portfolioCollection
         .insertOne(newData)

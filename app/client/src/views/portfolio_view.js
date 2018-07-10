@@ -37,6 +37,7 @@ PortfolioView.prototype.render = function(portfolio) {
 
   const tbody = document.createElement('tbody')
 	for (const row of portfolio) {
+    row.purchaseDate = new Date(row.purchaseDate).toISOString().substr(0, 10)
     const tbody_tr = document.createElement('tr')
     for (const key of keys) {
       const element = document.createElement('td')
