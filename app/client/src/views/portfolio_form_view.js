@@ -1,4 +1,5 @@
 const pubSub = require('../helpers/pubsub.js');
+const Highcharts = require('highcharts')
 
 const PortfolioFormView = function (container) {
     this.form = container.querySelector('#new-share');
@@ -17,6 +18,10 @@ PortfolioFormView.prototype.bindEvents = function () {
     pubSub.subscribe('Companies:price-result', event => {
         this.updatePrice(event.detail)
     })
+
+    pubSub.subscribe('Companies:company-chart-data', (event) => {
+        this.renderChart(event.detail)
+      })
 };
 
 PortfolioFormView.prototype.handleSubmit = function (evt) {
@@ -58,6 +63,34 @@ PortfolioFormView.prototype.updatePrice = function(price) {
     const submitButton = this.form.querySelector('input[type="submit"]')
     submitButton.disabled = false
 }
+
+PortfolioFormView.prototype.renderChart = function(chartData) {
+    Highcharts.chart(this.chart, {
+      xAxis: {
+        type: 'datetime',
+          dateTimeLabelFormats: {
+          month: '%e. %b',
+          year: '%b'},
+        
+        title: {
+            text: 'Date'
+        }
+      },
+      series: [{
+        data: chartData,
+        name: 'USD'
+      }],
+      yAxis: {
+        type: 'number',
+        title: {
+            text: 'Close Price'
+        }
+      },
+      tooltip: {
+        pointFormat: '{point.x:%e. %b}: {point.y:.2f} USD'
+  },
+    })
+  }
 
 
 module.exports = PortfolioFormView;
