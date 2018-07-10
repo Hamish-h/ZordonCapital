@@ -32,6 +32,7 @@ function quote(symbol, callback) {
   fetch(url)
     .then(res => res.json())
     .then(res => {
+      console.log(res)
       const quote = res['Stock Quotes']
 
       if (quote.length === 0) {
