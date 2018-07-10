@@ -2,6 +2,7 @@ const pubSub = require('../helpers/pubsub')
 
 const CompanySearchView = function(container){
   this.container = container
+  this.table = container.querySelector('#company-search-results')
 }
 
 CompanySearchView.prototype.bindEvents = function() {
@@ -9,7 +10,7 @@ CompanySearchView.prototype.bindEvents = function() {
     event.preventDefault()
     const searchText = event.target.company_search_text.value
     pubSub.publish('CompanySearchView:search-text', searchText)
-
+    this.table.classList.remove('hidden')
     event.target.reset()
   })
 
@@ -40,9 +41,7 @@ CompanySearchView.prototype.render = function(searchResults) {
     name.href = `#${searchResult.symbol}`
     name_td.appendChild(name)
 
-    name.addEventListener('click', handleClick)
-    symbol.addEventListener('click', handleClick)
-    function handleClick(event){
+    const handleClick = (event) => {
         event.preventDefault()
         const company = tr.attributes
 
@@ -50,7 +49,11 @@ CompanySearchView.prototype.render = function(searchResults) {
           name:company['data-name'].value,
           symbol:company['data-symbol'].value
         })
+
+        this.table.classList.add('hidden')
     }
+    name.addEventListener('click', handleClick)
+    symbol.addEventListener('click', handleClick)
 
     tr.appendChild(symbol_td)
     tr.appendChild(name_td)
