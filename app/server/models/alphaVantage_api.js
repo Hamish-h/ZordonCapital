@@ -26,4 +26,21 @@ function batchQuote(symbols, callback) {
     })
 }
 
-module.exports = {batchQuote}
+function quote(symbol, callback) {
+  const url = `https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbols=${symbol}&apikey=${apiKey}`
+
+  fetch(url)
+    .then(res => res.json())
+    .then(res => {
+      const quote = res['Stock Quotes']
+
+      if (quote.length === 0) {
+        callback('error')
+      } else {
+        const price = Number(res['Stock Quotes'][0]['2. price'])
+        callback(null, price)
+      }
+    })
+}
+
+module.exports = {batchQuote, quote}

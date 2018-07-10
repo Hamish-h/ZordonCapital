@@ -1,5 +1,20 @@
 const MongoClient = require ('mongodb').MongoClient;
 const router = require('express').Router();
+const av = require('./alphaVantage_api')
+
+
+router.get('/price/:symbol', (req, res) => {
+    av.quote(req.params.symbol, (err, price) => {
+        if (err) {
+            console.log(err);
+            res.status(500);
+            res.json({ err })
+            return 
+        } 
+        res.json({ price })
+    })
+})
+
 router.get('/search/:search_text', (req, res) =>{
   search(req.params.search_text, (error, companies)=>{
     res.json(companies)  
