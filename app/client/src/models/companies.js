@@ -12,7 +12,7 @@ Companies.prototype.bindEvents = function() {
 }
 
 Companies.prototype.search = function(searchText) {
-    request.get(`${this.url}/${searchText}`, (error, res) => {
+    request.get(`${this.url}/search/${searchText}`, (error, res) => {
         pubSub.publish('Companies:search-results', res)
     })
 }

@@ -1,6 +1,6 @@
 const MongoClient = require ('mongodb').MongoClient;
 const router = require('express').Router();
-router.get('/:search_text', (req, res) =>{
+router.get('/search/:search_text', (req, res) =>{
   search(req.params.search_text, (error, companies)=>{
     res.json(companies)  
   })
