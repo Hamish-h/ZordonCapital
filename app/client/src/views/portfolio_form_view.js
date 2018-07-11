@@ -4,6 +4,8 @@ const Highcharts = require('highcharts')
 const PortfolioFormView = function (container) {
     this.form = container.querySelector('#new-share');
     this.chart = container.querySelector('.chart');
+
+    this.form.reset()
 }
 
 PortfolioFormView.prototype.bindEvents = function () {
@@ -21,7 +23,7 @@ PortfolioFormView.prototype.bindEvents = function () {
 
     pubSub.subscribe('Companies:company-chart-data', (event) => {
         this.renderChart(event.detail)
-      })
+    })
 };
 
 PortfolioFormView.prototype.handleSubmit = function (evt) {
@@ -32,6 +34,7 @@ PortfolioFormView.prototype.handleSubmit = function (evt) {
 
     const submitButton = this.form.querySelector('input[type="submit"]')
     submitButton.disabled = true
+    this.chart.innerHTML = ""
 }
 
 PortfolioFormView.prototype.createShare = function (form) {
@@ -65,6 +68,8 @@ PortfolioFormView.prototype.updatePrice = function(price) {
 }
 
 PortfolioFormView.prototype.renderChart = function(chartData) {
+    const companyName = this.form.querySelector('#companyname').value
+
     Highcharts.chart(this.chart, {
       xAxis: {
         type: 'datetime',
@@ -75,6 +80,9 @@ PortfolioFormView.prototype.renderChart = function(chartData) {
         title: {
             text: 'Date'
         }
+      },
+      title: {
+          text: companyName
       },
       series: [{
         data: chartData,
