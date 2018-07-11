@@ -26,6 +26,22 @@ body{
   padding-bottom: 0.75rem;
 }
 
+.pl {
+  text-align: right;
+}
+
+.pl.up::after {
+  color: #00a300;
+  content: "\25B2";  
+  padding-left: 0.5rem;
+}
+
+.pl.down::after {
+  color: #a30000;
+  content: "\25BC";
+  padding-left: 0.5rem;
+}
+
 table {
   border-collapse: collapse;
 }

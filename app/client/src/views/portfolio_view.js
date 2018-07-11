@@ -24,8 +24,8 @@ PortfolioView.prototype.render = function(portfolio) {
   const thead = document.createElement('thead')
   const thead_tr = document.createElement('tr')
 
-  const headings = ['_id', 'Symbol', 'Company Name', 'Price', 'Date', 'Volume', 'Current Price']
-  const keys = ['_id', 'symbol', 'companyName', 'purchasePrice', 'purchaseDate', 'volume', 'currentPrice']
+  const headings = ['_id', 'Symbol', 'Company Name', 'Date', 'Volume', 'Bought At', 'Current Price', 'P/L']
+  const keys = ['_id', 'symbol', 'companyName', 'purchaseDate', 'volume', 'purchasePrice', 'currentPrice', 'pl']
   for (const heading of headings) {
     const td = document.createElement('td')
     td.className = heading
@@ -40,9 +40,16 @@ PortfolioView.prototype.render = function(portfolio) {
     row.purchaseDate = new Date(row.purchaseDate).toISOString().substr(0, 10)
     const tbody_tr = document.createElement('tr')
     for (const key of keys) {
+      const value = row[key]
       const element = document.createElement('td')
       element.className = key
-      element.textContent = row[key]
+
+      if (key === 'pl') {
+        element.classList.add(value>=0?'up':'down')
+      }
+       
+      element.textContent = value
+
       tbody_tr.appendChild(element)
     }
 

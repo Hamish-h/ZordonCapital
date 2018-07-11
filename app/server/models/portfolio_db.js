@@ -34,6 +34,9 @@ function connect(callback) {
               } else {
                 stocks[ndx].currentPrice = match.price
               }
+
+              const profit = stock.currentPrice - stock.purchasePrice
+              stock.pl = Number.parseFloat(profit).toFixed(2)
             }
 
             callback(stocks)
