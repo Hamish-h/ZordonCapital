@@ -87,7 +87,6 @@ function totalRow(totalsArray) {
     const td = document.createElement('td')
     td.textContent = Number.parseFloat(value).toFixed(2)
 
-    console.log({key})
     if (key === "2") {
       td.classList.add('pl')
       td.classList.add(value>=0?'up':'down')

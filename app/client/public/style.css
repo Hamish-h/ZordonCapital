@@ -22,6 +22,23 @@ body::after {
   z-index: -1;   
 }
 
+.news{
+  background-color: rgba(255,255,255, 0.5);
+  padding: 0.5rem;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
+
+.news * {
+  white-space: nowrap;
+}
+
+.news .headline {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 ._id {
   display: none;
 }
