@@ -71,6 +71,11 @@ PortfolioFormView.prototype.renderChart = function(chartData) {
     const companyName = this.form.querySelector('#companyname').value
 
     Highcharts.chart(this.chart, {
+			chart: {
+					renderTo: 'chart',
+					borderWidth: 2,
+					backgroundColor: null,
+				},
       xAxis: {
         type: 'datetime',
           dateTimeLabelFormats: {
@@ -85,6 +90,7 @@ PortfolioFormView.prototype.renderChart = function(chartData) {
           text: companyName
       },
       series: [{
+				lineColor:'#0000A3',
         data: chartData,
         name: 'USD'
       }],
