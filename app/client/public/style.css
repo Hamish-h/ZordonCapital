@@ -11,7 +11,7 @@ body{
 }
 
 body::after {
-  background-image: linear-gradient(to right top, #d4af37, #8ea545, #57925b, #377a66, #376060);
+  background-image: linear-gradient(to right bottom, #376060, #377a66, #57925b, #8ea545, #d4af37);
   content: "";
   opacity: 0.5;
   top: 0;
