@@ -5,21 +5,10 @@ html {
 }
 
 body{
-  display:flex;
+  display: flex ;
   flex-direction: column;
   justify-content: center;
-}
-
-body::after {
-  background-image: linear-gradient(to right bottom, #376060, #377a66, #57925b, #8ea545, #d4af37);
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+  background-image: linear-gradient(to right bottom, #37606088, #377a6688, #57925b88, #8ea54588, #d4af3788);
 }
 
 .news{
@@ -112,11 +101,18 @@ tr:nth-child(even) {
 #new-share {
   display: grid;
   grid-template-columns: min-content 6rem;
+  margin-right: 2%;
 }
 
 #new-share input[type=submit] {
   grid-column: span 2;
 } 
+
+#new-share input{
+  margin: 1% 1%;
+  border: 1px black solid;
+  padding: 0.5rem;
+}
 
 #new-share label{
   white-space: nowrap;
@@ -143,6 +139,7 @@ footer {
     padding: 10px 5px;
     background-color: #3232B5;
     color: #fff;
+    opacity: 0.65;
 }
 
 footer p {
@@ -170,7 +167,7 @@ header {
 }
 
 #new-share {
-  border: solid #3232B5;
+  border: solid #3232B588;
   padding: 1rem;
   border-radius: 0.5rem;
   margin-top: 1%;
@@ -195,6 +192,11 @@ main {
 .chart {
   width: 100%;
   min-height: 500px;
+}
+
+.highcharts-axis-line {
+  fill: none;
+  stroke: #C0D0E0;
 }
 
 
