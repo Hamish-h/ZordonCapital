@@ -34,14 +34,7 @@ body{
 
 .box {
   margin: 0.25rem 0;
-  /* border: 2px solid black;
-  border-radius: 0.5rem; */
   padding: 0.75rem;
-}
-
-#portfolio {
-  border: 2px solid black;
-  border-radius: 0.5rem;
 }
 
 #portfolio h2 {
@@ -60,7 +53,6 @@ body{
   font-weight: bold;
   border-bottom: none;
 }
-
 
 .pl {
   text-align: right;
