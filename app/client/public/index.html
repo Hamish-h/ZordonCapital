@@ -10,61 +10,66 @@
 </head>
 <body>
   <header>
-    <h1>Zordon Capital</h1>
     
     <div class="logo">
-    <img src="polygonal-letter-z-of-small-triangles.svg">
+      <img src="polygonal-letter-z-of-small-triangles.svg">
     </div>
+
+    <h1>Zordon Capital</h1>
+
   </header>
   
   <main>
     <div class="box" id="portfolio"></div>
 
     <div class="box" id="buy-share">
+      <div class="left">
       <form id="company-search">
-        <input type="search" id="company_search_text">
-        <input type="submit" value="Search" id="company-search-submit">
+          <input type="search" id="company_search_text">
+          <input type="submit" value="Search" id="company-search-submit">
 
-        <table id="company-search-results" class="hidden">
-          <thead>
-            <tr>
-              <td>Symbol</td>
-              <td>Company Name</td>
-            </tr>
-          </thead>
-          <tbody>
-            
-          </tbody>
-        </table>
-      </form>
+          <table id="company-search-results" class="hidden">
+            <thead>
+              <tr>
+                <td>Symbol</td>
+                <td>Company Name</td>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+        </form>
 
-      <form id="new-share">
+        <form id="new-share">
 
-        <label for="symbol">Symbol</label>
-        <input type="text" id="symbol" disabled />
+          <label for="symbol">Symbol</label>
+          <input type="text" id="symbol" disabled />
 
-        <label for="companyname">Company Name</label>
-        <input type="text" id="companyname" disabled />
+          <label for="companyname">Company Name</label>
+          <input type="text" id="companyname" disabled />
 
-        <label for="purchaseprice">Purchase Price</label>
-        <input type="text" id="purchaseprice" disabled />
+          <label for="purchaseprice">Purchase Price</label>
+          <input type="text" id="purchaseprice" disabled />
 
-        <label for="volume">Volume</label>
-        <input type="number" id="volume" required>
+          <label for="volume">Volume</label>
+          <input type="number" id="volume" required>
 
-        <input type="submit" value="Buy" disabled />
+          <input type="submit" value="Buy" disabled />
 
-      </form>
+        </form>
+      </div>
 
       <div class="chart"></div>
 
     </div>
 </main>
 
-  <footer>
+<footer>
+  <p>© 2018 Zordon Capital</p>
 
 
-  </footer>
+</footer>
 
   <script src="bundle.js"></script>
 </body>

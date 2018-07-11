@@ -73,3 +73,62 @@ table {
 .hidden {
   display: none;
 }
+
+footer {
+  display: flex;
+    padding: 10px 5px;
+    background-color: #3232B5;
+    color: #fff;
+}
+
+footer p {
+  flex: 1;
+  margin: 0;
+}
+
+#portfolio .purchasePrice::before, #portfolio .currentPrice::before {
+  content: '$ ';
+}
+
+header {
+  display: flex;
+  height: 170px;
+  margin-top: 1%;
+}
+
+.logo {
+  margin-right: 2%;
+}
+
+#company-search {
+  margin-bottom: 1%;
+}
+
+#new-share {
+  border: solid #3232B5;
+  padding: 1rem;;
+}
+
+main {
+  flex-direction: column;
+  display: flex;
+}
+
+#buy-share {
+  flex-direction: row;
+  display: flex;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart {
+  width: 100%;
+  min-height: 500px;
+}
+
+
+
+
