@@ -36,7 +36,13 @@ PortfolioView.prototype.render = function(portfolio) {
   thead.appendChild(thead_tr)
 
   const tbody = document.createElement('tbody')
+  let purchaseCost = 0
+  let currentValue = 0
+
 	for (const row of portfolio) {
+    purchaseCost += (row.volume * row.purchasePrice)
+    currentValue += (row.volume * row.currentPrice)
+
     row.purchaseDate = new Date(row.purchaseDate).toISOString().substr(0, 10)
     const tbody_tr = document.createElement('tr')
     for (const key of keys) {
@@ -56,10 +62,45 @@ PortfolioView.prototype.render = function(portfolio) {
     tbody.appendChild(tbody_tr)
   }
 
+  const totalPL = currentValue - purchaseCost
+
+  const tfoot = totalRow([purchaseCost, currentValue, totalPL])
+
   table.appendChild(thead)
   table.appendChild(tbody)
+  table.appendChild(tfoot)
   this.container.appendChild(htag)
   this.container.appendChild(table)
+}
+
+function totalRow(totalsArray) {
+  const tfoot = document.createElement('tfoot')
+  const tfoot_tr = document.createElement('tr')
+
+  const td_pad = document.createElement('td')
+  td_pad.textContent = "Totals"
+  td_pad.setAttribute('colspan', "4")
+  tfoot_tr.appendChild(td_pad)
+
+  for (key in totalsArray) {
+    const value = totalsArray[key]
+    const td = document.createElement('td')
+    td.textContent = Number.parseFloat(value).toFixed(2)
+
+    console.log({key})
+    if (key === "2") {
+      td.classList.add('pl')
+      td.classList.add(value>=0?'up':'down')
+    } else {
+      td.textContent = `$ ${td.textContent}`
+    }
+
+    tfoot_tr.appendChild(td)
+  }
+
+  tfoot.appendChild(tfoot_tr)
+
+  return tfoot
 }
 
 module.exports = PortfolioView

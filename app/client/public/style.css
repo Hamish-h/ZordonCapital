@@ -26,6 +26,21 @@ body{
   padding-bottom: 0.75rem;
 }
 
+#portfolio tfoot td {
+  padding-top: 1rem;
+}
+
+#portfolio tfoot td {
+  border-bottom: 4px double black;
+}
+
+#portfolio tfoot td:first-of-type {
+  text-align: right;
+  font-weight: bold;
+  border-bottom: none;
+}
+
+
 .pl {
   text-align: right;
 }
