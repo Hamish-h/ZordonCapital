@@ -14,5 +14,5 @@ const companies_db = require('./models/company_db')
 app.use('/api/companies', companies_db);
 
 app.listen(3000, () => {
-  console.log(`Express running at http://localhost:3000`)
+  console.info(`Express running at http://localhost:3000`)
 })

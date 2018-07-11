@@ -4,7 +4,7 @@ const ObjectID = require('mongodb').ObjectID;
 const av = require('./alphaVantage_api')
 
 function connect(callback) {
-  MongoClient.connect('mongodb://localhost:27017', (err, client) => {
+  MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, (err, client) => {
     if (err) {
       console.error(err);
     }
@@ -26,7 +26,6 @@ function connect(callback) {
           const symbols = stocks.map(stock => stock.symbol)
 
           av.batchQuote(symbols, (error, prices) => {
-            console.log(prices)
             for (const ndx in stocks) {
               const stock = stocks[ndx]
               const match = prices.find(price => price.symbol===stock.symbol)
@@ -84,7 +83,7 @@ function connect(callback) {
     portfolioRouter.get('/chart-data/:symbol', (req, res) => {
       av.singleQuoteDaily(req.params.symbol, (err, portfolioChartData) => {
         if (err) {
-          console.log(err);
+          console.error(err);
           res.status(500);
           res.json({ err })
           return 

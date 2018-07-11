@@ -6,7 +6,7 @@ const av = require('./alphaVantage_api')
 router.get('/price/:symbol', (req, res) => {
     av.quote(req.params.symbol, (err, price) => {
         if (err) {
-            console.log(err);
+            console.error(err);
             res.status(500);
             res.json({ err })
             return 
@@ -22,9 +22,9 @@ router.get('/search/:search_text', (req, res) =>{
 })
 
 function search(text, callback){
-    MongoClient.connect('mongodb://localhost:27017', (err, client) => {
+    MongoClient.connect('mongodb://localhost:27017', { useNewUrlParser: true }, (err, client) => {
         if (err) {
-            console.log(err);
+            console.error(err);
             callback(err);
             return 
         }

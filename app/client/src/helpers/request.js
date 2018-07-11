@@ -1,7 +1,7 @@
-const debug = true
+const debug = !true
 
 function request(url, options, callback) {
-  if (debug) {console.log('<request>', {url})}
+  if (debug) {console.debug('<request>', {url})}
 
   fetch(url, options)
     .then(res => res.json())
